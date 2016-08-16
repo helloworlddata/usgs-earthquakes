@@ -26,7 +26,6 @@ def main(start_datestr="0000", end_datestr="9999"):
                     outcsv.writerow(row)
 
 if __name__ == '__main__':
-
     x = argv[1] if len(argv) > 1 else '0000'
     y = argv[2] if len(argv) > 2 else '9999'
     main(x, y)
