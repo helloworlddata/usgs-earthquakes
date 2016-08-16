@@ -3,8 +3,9 @@ from settings import FETCHED_DIR as SRC_DIR
 
 from sys import argv, stdout
 
-def glob_decade(decade):
-    filenames = SRC_DIR.glob('%s*-*.csv' % decade[0:3])
+def glob_years(start_year, end_year):
+    filenames = [f for f in SRC_DIR.glob('*.csv') if f.stem >= start_year and f.stem < end_year]
+
     headers = None
     for fname in filenames:
         for lineno, line in enumerate(fname.open('r')):
@@ -18,6 +19,7 @@ def glob_decade(decade):
 
 
 if __name__ == '__main__':
-    decade = argv[1] # e.g. 1980
-    for line in glob_decade(decade):
+    startyr = argv[1] # e.g. 1980
+    endyr = argv[2] # e.g. 1981
+    for line in glob_years(startyr, endyr):
         stdout.write(line)
