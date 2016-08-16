@@ -4,13 +4,15 @@ FETCHED_DIR=$(WRANGLE_DIR)/corral/fetched
 COLLATED_DIR=$(WRANGLE_DIR)/corral/collated
 DATA_DIR=./data
 
-fetch:
+fetch_all:
 	python wrangle/scripts/fetch_archives.py 1970-01 $(shell date +%Y-%m)
 
-fetch_this_year:
-	python wrangle/scripts/fetch_archives.py $(shell date +%Y-01) $(shell date +%Y-%m)
+refresh_current_month:
+	python wrangle/scripts/fetch_archives.py $(shell date +%Y-%m)
 
 
+
+# todo: use pattern matching
 package:
 	mkdir -p $(DATA_DIR)
 	cp $(COLLATED_DIR)/decade-1970.csv $(DATA_DIR)/usgs-earthquakes-decade-1970.csv
