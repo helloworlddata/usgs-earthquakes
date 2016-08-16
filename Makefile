@@ -14,6 +14,7 @@ fetch_this_year:
 package:
 	mkdir -p $(DATA_DIR)
 	cp $(COLLATED_DIR)/contiguous-united-states.csv $(DATA_DIR)/usgs-earthquakes-contiguous-united-states.csv
+	cp $(COLLATED_DIR)/decade-1970.csv $(DATA_DIR)/usgs-earthquakes-decade-1970.csv
 	cp $(COLLATED_DIR)/decade-1980.csv $(DATA_DIR)/usgs-earthquakes-decade-1980.csv
 	cp $(COLLATED_DIR)/decade-1990.csv $(DATA_DIR)/usgs-earthquakes-decade-1990.csv
 	cp $(COLLATED_DIR)/decade-2000.csv $(DATA_DIR)/usgs-earthquakes-decade-2000.csv
