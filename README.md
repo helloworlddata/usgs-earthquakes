@@ -1,6 +1,17 @@
 # USGS Earthquakes
 
-Data fetched from the USGS Earthquake Archives and packaged in relatively-easy-to-access flat files in [check the data/ directory](data/)
+Data fetched from the USGS Earthquake Archives and packaged in relatively-easy-to-access flat files. This repo is pushed to Github pages, but there's currently no web-friendly index to list the contents of [data/](data/).
+
+For example:
+
+[data/usgs-earthquakes-contiguous-united-states-2000-through-2015.csv](data/usgs-earthquakes-contiguous-united-states-2000-through-2015.csv)
+
+Can be (more easily) downloaded at:
+
+
+https://dataofnote.github.io/usgs-earthquakes/data/usgs-earthquakes-contiguous-united-states-2000-through-2015.csv
+
+
 
 ## Sources
 
