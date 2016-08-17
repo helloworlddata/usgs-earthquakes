@@ -16,7 +16,7 @@ USCOORDS = {lng0: -125, lng1: -65, lat0: 24.6, lat1: 50}
 PACKAGES = {
   :decades => (1960..2000).step(10),
   :periods => [(2010..2014),],        # too big for a decade
-  :years => 2015..END_DATE.year       # each of these years are too big for a single file
+  :years => 2015...END_DATE.year      # each of these years are too big for a single file
 }
 
 
@@ -107,14 +107,29 @@ namespace :publish do
   end
 
 
+
+  ### Special case for the current year
+  tyear = END_DATE.year
+  this_year_fname = String(PUBLISHED_DIR.join "usgs-earthquakes-#{tyear}.csv")
+  yms = enum_yearmonths(DateTime.new(tyear, 1), END_DATE)
+  srcnames = yms.map{|s| FETCHED_DIR.join(s + '.csv')}
+
+  desc "This year's file, as of #{END_DATE.year}"
+  file this_year_fname => srcnames do
+    cmd1 = Shellwords.join(['python', SCRIPTS_DIR.join('compile_years.py'),
+                                    tyear, tyear+1, FETCHED_DIR])
+    # the most recent year isn't complete, so we don't depend
+    # on the entire year's worth of month files being fetched
+    Shell.new.system(cmd1) > String(this_year_fname)
+  end
+
+  ### Special case for refreshing the most recent months
   desc "re-fetch the two most recent months and repackage the most recent year"
   task :recent do
-    today = DateTime.now()
-    enum_yearmonths(today - 31, today).each do |ym|
+    Rake::Task[this_year_fname].invoke
+    enum_yearmonths(END_DATE - 31, END_DATE).each do |ym|
       Rake::Task['fetch:yearmonth'].execute(:yearmonth => ym)
     end
-    yrpath = String(PUBLISHED_DIR.join "usgs-earthquakes-#{today.year}.csv")
-    Rake::Task[yrpath].execute()
   end
 end
 

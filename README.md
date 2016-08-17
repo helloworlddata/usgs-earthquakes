@@ -1,6 +1,8 @@
 # USGS Earthquakes
 
-Data fetched from the USGS Earthquake Archives
+Data fetched from the USGS Earthquake Archives and packaged in relatively-easy-to-access flat files in [check the data/ directory](data/)
+
+## Sources
 
 - Archive search form: http://earthquake.usgs.gov/earthquakes/search/
 - USGS CSV specification: http://earthquake.usgs.gov/earthquakes/feed/v1.0/csv.php
@@ -18,6 +20,9 @@ The [Rakefile](Rakefile) contains all the tasks needed to fetch, process, and pa
 For example, to generate the file [data/usgs-earthquakes-decade-1970.csv](data/usgs-earthquakes-2016.csv):
 
 ```sh
+# create the subdirectories, including wrangle/corral
+$ rake setup
+
 # run it with --build-all to force it to rebuild dependencies
 $ rake data/usgs-earthquakes-decade-1970.csv
 ```
@@ -49,5 +54,9 @@ http://earthquake.usgs.gov/fdsnws/event/1/query.csv?starttime=1970-03-01%2000:00
 Why does the fetching script only pull one month at a time? Because the [USGS Archive](http://earthquake.usgs.gov/earthquakes/search/) won't return more than 20,000 hits per query, and fetching by month bypasses the need to write pagination logic in the fetching script.
 
 Why does the [data/](data/) directory contain packages of arbitrary time periods, e.g.  [data/usgs-earthquakes-2010-through-2014.csv](data/usgs-earthquakes-2010-through-2014.csv) and [data/usgs-earthquakes-decade-1980.csv](data/usgs-earthquakes-decade-1980.csv)? Because Github has a file size limit of 100MB.
+
+There is also a soft limit for total size of a repo. For that reason, the `wrangle/corral` folder, which is where files are fetched and stored to, is not tracked.
+
+
 
 This repo is not meant to be a direct mirror of the USGS archive, but to contain easy-to-access packages of data for educational/experimental purposes.
