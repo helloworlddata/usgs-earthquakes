@@ -45,7 +45,7 @@ def fetch_and_save(start_date, end_date):
         # as: "2015-05.csv"
         destpath = DEST_DIR / dt.strftime("%Y-%m.csv")
         destpath.write_text(resp.text)
-        print("Saved:", destpath)
+        print("Fetched:", destpath)
 
 
 if __name__ == '__main__':
