@@ -1,6 +1,5 @@
 require 'date'
 require 'pathname'
-require 'active_support/all'
 
 DATA_DIR = Pathname 'data'
 WRANGLE_DIR = Pathname 'wrangle'
@@ -11,9 +10,12 @@ COLLATED_DIR = WRANGLE_DIR.join('corral', 'collated')
 START_DATE = DateTime.new(1960, 1)
 END_DATE = DateTime.now()
 ALL_YEAR_MONTHS = START_DATE.upto(END_DATE).map{|d| d.strftime('%Y-%m')}.uniq()
-DECADES_TO_PACKAGE = (1960..2000).step(10)
-PERIODS_TO_PACKAGE = [(2010..2014),]
 
+PACKAGES = {
+  :decades => (1960..2000).step(10),
+  :periods => [(2010..2014),],        # too big for a decade
+  :years => 2015..END_DATE.year       # each of these years are too big for a single file
+}
 
 
 task :default => [:setup]
@@ -29,7 +31,7 @@ end
 # decade files
 
 namespace :package do
-  DECADES_TO_PACKAGE.each do |decade|
+  PACKAGES[:decades].each do |decade|
     srcname = COLLATED_DIR.join "decade-#{decade}.csv"
     destname = DATA_DIR.join("usgs-earthquakes-decade-#{decade}.csv").to_s
     # simple copy and renaming
@@ -39,7 +41,7 @@ namespace :package do
     end
   end
 
-  PERIODS_TO_PACKAGE.each do |period|
+  PACKAGES[:periods].each do |period|
     px = period.first
     py = period.last
     srcname = COLLATED_DIR.join "#{px}-through-#{py}.csv"
@@ -50,7 +52,17 @@ namespace :package do
     end
   end
 
+  PACKAGES[:years].each do |year|
+    srcname = COLLATED_DIR.join "#{year}.csv"
+    destname = DATA_DIR.join "usgs-earthquakes-#{year}.csv"
+    desc "package single year #{year}"
+    file destname => srcname do
+      sh "cp #{srcname} #{destname}"
+    end
+  end
 
+  desc "package the last month and year file"
+  task :recent
 end
 
 
