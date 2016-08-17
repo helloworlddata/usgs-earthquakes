@@ -1,0 +1,555 @@
+time,latitude,longitude,depth,mag,magType,nst,gap,dmin,rms,net,id,updated,place,type,horizontalError,depthError,magError,magNst,status,locationSource,magSource
+1960-01-02T07:11:19.320Z,33.7861667,-118.5716667,6,2.39,mh,4,56,0.4913,0.37,ci,ci3351422,2016-01-28T19:43:17.230Z,"17km W of Palos Verdes Estates, CA",earthquake,2.45,31.61,0.152,12,reviewed,ci,ci
+1960-01-02T12:21:58.000Z,-55.877,-1.89,15,6.3,mw,,,,,iscgem,iscgem877909,2015-05-13T18:52:54.000Z,"Bouvet Island region",earthquake,,,,,automatic,iscgem,iscgem
+1960-01-02T22:51:46.080Z,35.5563333,-121.351,6,4.04,ml,9,293,1.331,0.65,ci,ci3351457,2016-01-28T19:43:17.710Z,"24km W of Cambria, CA",earthquake,3.27,31.61,0.161,11,reviewed,ci,ci
+1960-01-03T11:24:05.000Z,43.7,84.542,15,5.7,mw,,,,,iscgem,iscgem877920,2015-05-13T18:52:54.000Z,"northern Xinjiang, China",earthquake,,,,,automatic,iscgem,iscgem
+1960-01-03T20:50:13.440Z,31.5635,-116.3976667,6,3.77,ml,2,359,1.137,0.34,ci,ci12277811,2016-01-28T19:43:18.210Z,"23km SE of Maneadero, B.C., MX",earthquake,29.12,31.61,0.052,8,reviewed,ci,ci
+1960-01-03T21:08:14.440Z,31.0971667,-116.0796667,6,3.99,ml,4,353,1.657,1.24,ci,ci10086470,2016-01-28T20:00:38.470Z,"83km SE of Maneadero, B.C., MX",earthquake,77.36,31.61,0.131,5,reviewed,ci,ci
+1960-01-04T06:16:35.000Z,11.374,42.609,15,6.1,mw,,,,,iscgemsup,iscgemsup877930,2015-07-13T17:02:23.000Z,"Djibouti",earthquake,,,,,automatic,iscgem,iscgem
+1960-01-04T12:52:00.000Z,45.069,26.829,40,5.4,mw,,,,,iscgemsup,iscgemsup877933,2015-07-13T17:02:23.000Z,"Romania",earthquake,,,,,automatic,iscgem,iscgem
+1960-01-05T18:01:48.360Z,34.0148333,-117.7106667,6.22,3.03,ml,9,139,0.2793,0.56,ci,ci3351606,2016-01-28T19:47:36.260Z,"2km W of Chino, CA",earthquake,2.2,2.85,0.215,11,reviewed,ci,ci
+1960-01-06T20:52:17.350Z,35.0055,-118.5136667,6,2.66,ml,8,114,0.3446,0.62,ci,ci3351626,2016-01-28T19:43:18.710Z,"15km SSW of Tehachapi, CA",earthquake,2.08,31.61,0.051,6,reviewed,ci,ci
+1960-01-07T08:15:27.000Z,6.418,94.756,15,5.6,mw,,,,,iscgem,iscgem877954,2015-05-13T18:52:54.000Z,"Nicobar Islands, India region",earthquake,,,,,automatic,iscgem,iscgem
+1960-01-07T13:28:20.000Z,-55.591,-27.278,35,6.2,mw,,,,,iscgem,iscgem877956,2015-05-13T18:52:54.000Z,"South Sandwich Islands region",earthquake,,,,,automatic,iscgem,iscgem
+1960-01-07T17:51:33.650Z,32.2211667,-115.9048333,6,3.64,ml,3,340,0.7939,0.83,ci,ci12277815,2016-01-28T19:43:06.290Z,"50km SW of Progreso, B.C., MX",earthquake,10.65,31.61,0.112,5,reviewed,ci,ci
+1960-01-07T23:17:30.000Z,6.352,94.547,55,5.5,mw,,,,,iscgem,iscgem877960,2015-05-13T18:52:54.000Z,"Nicobar Islands, India region",earthquake,,,,,automatic,iscgem,iscgem
+1960-01-08T06:51:22.610Z,33.4153333,-116.4301667,6,3.1,ml,5,249,0.3671,0.39,ci,ci3351628,2016-01-28T20:00:38.960Z,"18km NNW of Borrego Springs, CA",earthquake,2.41,31.61,0.059,4,reviewed,ci,ci
+1960-01-08T11:29:21.000Z,-55.57,-27.115,15,5.9,mw,,,,,iscgem,iscgem877965,2015-05-13T18:52:54.000Z,"South Sandwich Islands region",earthquake,,,,,automatic,iscgem,iscgem
+1960-01-08T14:43:06.910Z,33.8391667,-118.2806667,7.07,2.21,ml,5,62,0.3216,0.3,ci,ci3351629,2016-01-28T19:47:36.790Z,"1km N of Carson, CA",earthquake,2.42,4.19,0.121,4,reviewed,ci,ci
+1960-01-08T14:46:02.000Z,-55.585,-27.475,35,6,mw,,,,,iscgem,iscgem877967,2015-05-13T18:52:54.000Z,"South Sandwich Islands region",earthquake,,,,,automatic,iscgem,iscgem
+1960-01-10T05:14:07.160Z,33.9566667,-117.8223333,2.43,2.79,ml,7,162,0.3471,0.38,ci,ci3351631,2016-01-28T19:52:01.390Z,"7km SW of Chino Hills, CA",earthquake,1.62,2.64,0.189,8,reviewed,ci,ci
+1960-01-11T03:10:18.000Z,16.046,95.832,15,5.6,mw,,,,,iscgem,iscgem877983,2015-05-13T18:52:54.000Z,"near the south coast of Myanmar",earthquake,,,,,automatic,iscgem,iscgem
+1960-01-11T19:08:40.030Z,37.1611667,-117.8273333,0,3.79,ml,6,275,0.3392,0.69,ci,ci3351632,2016-01-28T19:38:54.540Z,"41km E of Big Pine, CA",earthquake,8.48,9.71,0.092,8,reviewed,ci,ci
+1960-01-12T01:52:40.000Z,23.401,122.323,10,5.8,mw,,,,,iscgem,iscgem877990,2015-05-13T18:52:54.000Z,"Taiwan region",earthquake,,,,,automatic,iscgem,iscgem
+1960-01-12T03:09:17.000Z,-55.667,-27.135,35,6,mw,,,,,iscgem,iscgem877991,2015-05-13T18:52:54.000Z,"South Sandwich Islands region",earthquake,,,,,automatic,iscgem,iscgem
+1960-01-12T23:15:01.800Z,31.6733333,-116.2348333,6,3.99,ml,5,343,1.07,0.6,ci,ci10086474,2016-01-28T19:52:01.930Z,"32km E of Maneadero, B.C., MX",earthquake,17.31,31.61,0.116,5,reviewed,ci,ci
+1960-01-15T09:30:21.000Z,-15.008,-74.867,65,7.1,mw,,,,,iscgem,iscgem878016,2015-05-13T18:52:54.000Z,"near the coast of southern Peru",earthquake,,,,,automatic,iscgem,iscgem
+1960-01-16T03:10:09.150Z,34.0218333,-117.5375,0,2.34,ml,6,152,0.1375,0.43,ci,ci3351634,2016-01-28T20:00:39.450Z,"4km NNW of Mira Loma, CA",earthquake,2.15,1.93,0.023,4,reviewed,ci,ci
+1960-01-17T02:57:49.000Z,-15.326,-75.396,45,5.9,mw,,,,,iscgemsup,iscgemsup878032,2015-07-13T17:02:23.000Z,"near the coast of central Peru",earthquake,,,,,automatic,iscgem,iscgem
+1960-01-18T21:00:43.350Z,34.9296667,-118.8118333,4.59,3.37,ml,6,142,0.09296,0.36,ci,ci3351635,2016-01-28T19:56:18.970Z,"11km E of Grapevine, CA",earthquake,1.18,1.75,0.067,10,reviewed,ci,ci
+1960-01-19T02:17:00.000Z,51.531,158.276,52.9,5.5,mw,,,,,iscgem,iscgem878042,2015-05-13T18:52:54.000Z,"near the east coast of the Kamchatka Peninsula, Russia",earthquake,,,,,automatic,iscgem,iscgem
+1960-01-20T02:37:30.200Z,34.3815,-118.9115,6,2.33,ml,7,70,0.4889,0.51,ci,ci3351636,2016-01-28T19:30:36.850Z,"2km SSE of Fillmore, CA",earthquake,2.54,31.61,0.329,4,reviewed,ci,ci
+1960-01-21T10:42:47.000Z,-15.8,-179.407,25,6,mw,,,,,iscgem,iscgem878057,2015-05-13T18:52:54.000Z,"Fiji region",earthquake,,,,,automatic,iscgem,iscgem
+1960-01-21T22:21:10.990Z,33.1288333,-115.9915,6,2.62,mh,4,207,0.648,0.31,ci,ci3351639,2016-01-28T19:38:55.100Z,"13km E of Ocotillo Wells, CA",earthquake,1.61,31.61,0.146,8,reviewed,ci,ci
+1960-01-21T23:52:21.090Z,32.8011667,-117.0716667,6,2.69,mh,5,217,0.3577,0.67,ci,ci3351640,2016-01-28T19:43:19.190Z,"6km NW of La Mesa, CA",earthquake,3.26,31.61,0.106,7,reviewed,ci,ci
+1960-01-23T03:11:44.240Z,35.4191667,-116.2883333,6,3.38,ml,6,231,1.138,0.39,ci,ci3351642,2016-01-28T19:52:02.420Z,"26km NW of Baker, CA",earthquake,2.46,31.61,0.079,9,reviewed,ci,ci
+1960-01-23T04:41:03.000Z,-3.998,127.456,25,6.3,mw,,,,,iscgem,iscgem878081,2015-05-13T18:52:54.000Z,"Seram, Indonesia",earthquake,,,,,automatic,iscgem,iscgem
+1960-01-23T07:31:21.000Z,-4.071,127.522,25,6.2,mw,,,,,iscgem,iscgem878083,2015-05-13T18:52:54.000Z,"Banda Sea",earthquake,,,,,automatic,iscgem,iscgem
+1960-01-23T16:09:09.460Z,31.9936667,-116.0006667,6,3.65,ml,3,348,0.8897,0.08,ci,ci10086478,2016-01-28T19:43:20.180Z,"60km ENE of Ensenada, B.C., MX",earthquake,3.59,31.61,0.063,5,reviewed,ci,ci
+1960-01-23T17:56:40.000Z,-4.119,127.449,35,6.2,mw,,,,,iscgem,iscgem878085,2015-05-13T18:52:54.000Z,"Banda Sea",earthquake,,,,,automatic,iscgem,iscgem
+1960-01-24T04:21:49.000Z,-16.094,-179.094,25,6.3,mw,,,,,iscgem,iscgem878090,2015-05-13T18:52:54.000Z,"Fiji region",earthquake,,,,,automatic,iscgem,iscgem
+1960-01-24T16:08:32.560Z,33.111,-116.0438333,6,3.35,ml,4,203,0.6813,0.43,ci,ci3351646,2016-01-28T19:43:19.690Z,"9km ESE of Ocotillo Wells, CA",earthquake,1.83,31.61,0.036,4,reviewed,ci,ci
+1960-01-25T16:29:35.000Z,-15.935,-179.264,25,6.1,mw,,,,,iscgem,iscgem878104,2015-05-13T18:52:54.000Z,"Fiji region",earthquake,,,,,automatic,iscgem,iscgem
+1960-01-26T09:52:14.000Z,40.104,38.701,25,5.3,mw,,,,,iscgemsup,iscgemsup878113,2015-07-13T17:02:23.000Z,"eastern Turkey",earthquake,,,,,automatic,iscgem,iscgem
+1960-01-29T01:27:03.570Z,34.6993333,-116.4728333,6,3.05,ml,4,277,1.026,0.57,ci,ci3351647,2016-01-28T19:52:02.930Z,"29km W of Ludlow, CA",earthquake,5.37,31.61,0.015,4,reviewed,ci,ci
+1960-01-29T02:07:51.340Z,34.2451667,-118.3568333,0.02,2.28,mh,6,144,0.1816,0.57,ci,ci3351648,2016-01-28T19:47:37.300Z,"3km S of Lake View Terrace, CA",earthquake,1.98,2.35,0.045,8,reviewed,ci,ci
+1960-01-30T02:19:35.060Z,34.2675,-118.5861667,6,2.4,ml,5,216,0.3639,0.53,ci,ci3351649,2016-01-28T20:00:39.940Z,"2km NE of Chatsworth, CA",earthquake,3.94,31.61,0.03,5,reviewed,ci,ci
+1960-01-30T20:27:58.710Z,34.2876667,-117.8433333,6,2.1,mh,7,119,0.3051,0.63,ci,ci3351650,2016-01-28T19:47:37.780Z,"17km N of Glendora, CA",earthquake,3.73,31.61,0.095,9,reviewed,ci,ci
+1960-01-31T05:08:21.000Z,33.093,134.885,20,6.3,mw,,,,,iscgem,iscgem878153,2015-05-13T18:52:54.000Z,"Shikoku, Japan",earthquake,,,,,automatic,iscgem,iscgem
+1960-01-31T05:54:48.010Z,34.1251667,-116.6343333,6,3.37,ml,6,206,0.6291,0.36,ci,ci3351651,2016-01-28T19:38:55.570Z,"10km NNW of Morongo Valley, CA",earthquake,1.73,31.61,0.135,6,reviewed,ci,ci
+1960-02-01T11:59:45.000Z,35.19,23.035,35,5.5,mw,,,,,iscgem,iscgem878165,2015-05-13T18:52:54.000Z,"Crete, Greece",earthquake,,,,,automatic,iscgem,iscgem
+1960-02-03T08:37:18.160Z,32.0766667,-116.043,6,4.64,ml,5,289,0.8034,0.4,ci,ci3351652,2016-01-28T19:31:49.730Z,"59km ENE of Ensenada, B.C., MX",earthquake,4.24,31.61,0.082,9,reviewed,ci,ci
+1960-02-04T03:46:38.000Z,-4.617,153.487,50,6.6,mw,,,,,iscgem,iscgem878186,2015-05-13T18:52:54.000Z,"New Ireland region, Papua New Guinea",earthquake,,,,,automatic,iscgem,iscgem
+1960-02-04T16:50:32.000Z,38.667,143.014,25,6.1,mw,,,,,iscgem,iscgem878191,2015-05-13T18:52:54.000Z,"off the east coast of Honshu, Japan",earthquake,,,,,automatic,iscgem,iscgem
+1960-02-08T12:45:39.000Z,-58.134,-65.672,15,6.4,mw,,,,,iscgem,iscgem878224,2015-05-13T18:52:54.000Z,"Drake Passage",earthquake,,,,,automatic,iscgem,iscgem
+1960-02-09T14:01:49.400Z,33.1588333,-116.4613333,6,3.7,ml,7,234,0.3883,0.64,ci,ci3351653,2016-01-28T19:56:19.470Z,"14km SW of Borrego Springs, CA",earthquake,6.46,31.61,0.129,10,reviewed,ci,ci
+1960-02-09T23:55:56.000Z,-3.995,127.731,35,6.5,mw,,,,,iscgem,iscgem878240,2015-05-13T18:52:54.000Z,"Seram, Indonesia",earthquake,,,,,automatic,iscgem,iscgem
+1960-02-10T23:19:56.000Z,-16.22,-172.558,15,5.9,mw,,,,,iscgem,iscgem878247,2015-05-13T18:52:54.000Z,"Samoa Islands region",earthquake,,,,,automatic,iscgem,iscgem
+1960-02-12T21:18:39.210Z,34.3183333,-117.8685,0.01,2.11,mh,6,148,0.1834,0.39,ci,ci3351187,2016-01-28T19:52:03.410Z,"20km N of Glendora, CA",earthquake,2.23,3.3,0.151,11,reviewed,ci,ci
+1960-02-13T00:36:02.710Z,34.6286667,-117.1231667,6,2.6,ml,6,186,0.6671,0.5,ci,ci3351188,2016-01-28T19:43:20.650Z,"15km NNE of Apple Valley, CA",quarry blast,1.72,31.61,0.191,4,reviewed,ci,ci
+1960-02-16T05:58:22.740Z,33.9598333,-117.7998333,5.96,2.1,ml,6,159,0.3395,0.31,ci,ci3351189,2016-01-28T19:30:37.350Z,"5km SW of Chino Hills, CA",earthquake,1.62,2.57,0.03,3,reviewed,ci,ci
+1960-02-16T13:14:35.000Z,21.782,-45.533,15,5.7,mw,,,,,iscgem,iscgem878298,2015-05-13T18:52:54.000Z,"northern Mid-Atlantic Ridge",earthquake,,,,,automatic,iscgem,iscgem
+1960-02-16T22:16:22.620Z,35.1131667,-118.4335,0.01,2.57,ml,6,146,0.4527,0.41,ci,ci3351190,2016-04-02T07:20:11.279Z,"2km SSE of Tehachapi, CA",quarry blast,1.57,31.61,0.165,4,reviewed,ci,ci
+1960-02-17T12:32:17.000Z,-29.861,-111.881,15,6,mw,,,,,iscgem,iscgem878305,2015-05-13T18:52:54.000Z,"Easter Island region",earthquake,,,,,automatic,iscgem,iscgem
+1960-02-17T18:00:47.020Z,34.0951667,-118.249,7.39,2.02,mh,4,232,0.08362,0.22,ci,ci3351191,2016-01-28T19:47:38.280Z,"2km ENE of Silver Lake, CA",earthquake,1.85,1.07,0.176,9,reviewed,ci,ci
+1960-02-17T23:24:47.210Z,34.2535,-118.5706667,0.27,2.35,ml,9,121,0.3473,0.47,ci,ci3351192,2016-01-28T19:38:56.090Z,"3km E of Chatsworth, CA",earthquake,1.39,2.19,0.101,6,reviewed,ci,ci
+1960-02-18T21:35:16.000Z,52.439,160.39,35,5.8,mw,,,,,iscgem,iscgem878322,2015-05-13T18:52:54.000Z,"off the east coast of the Kamchatka Peninsula, Russia",earthquake,,,,,automatic,iscgem,iscgem
+1960-02-19T19:53:54.450Z,34.2916667,-117.858,0.02,2.23,mh,7,146,0.1793,0.32,ci,ci3351193,2016-01-28T19:34:49.280Z,"17km N of Glendora, CA",earthquake,1.49,3.21,0.254,11,reviewed,ci,ci
+1960-02-21T00:46:58.000Z,-42.217,173.17,49.7,5.6,mw,,,,,iscgem,iscgem878342,2015-05-13T18:52:54.000Z,"South Island of New Zealand",earthquake,,,,,automatic,iscgem,iscgem
+1960-02-21T17:02:51.840Z,35.3506667,-118.5636667,6,3.2,ml,9,112,0.3199,0.68,ci,ci3351194,2016-01-28T19:56:20.030Z,"26km NNW of Tehachapi, CA",earthquake,1.94,31.61,0.095,11,reviewed,ci,ci
+1960-02-22T10:54:11.710Z,35.367,-118.5441667,6,3.02,ml,9,112,0.3006,0.58,ci,ci3351195,2016-01-28T19:56:20.590Z,"25km S of Bodfish, CA",earthquake,1.6,31.61,0.108,10,reviewed,ci,ci
+1960-02-22T22:57:45.090Z,32.4518333,-115.7661667,6,3.71,ml,3,283,0.7981,0.49,ci,ci3351196,2016-01-28T20:00:40.440Z,"22km SW of Progreso, B.C., MX",earthquake,5.67,31.61,0.121,5,reviewed,ci,ci
+1960-02-23T01:02:05.090Z,33.2298333,-118.357,6,2.82,ml,8,235,0.5213,0.41,ci,ci3351198,2016-01-28T19:38:56.590Z,"13km SSW of Avalon, CA",quarry blast,1.8,31.61,0.058,7,reviewed,ci,ci
+1960-02-23T07:34:36.000Z,38.841,20.587,25,5.6,mw,,,,,iscgem,iscgem878365,2015-05-13T18:52:54.000Z,"Greece",earthquake,,,,,automatic,iscgem,iscgem
+1960-02-23T16:04:55.000Z,-6.184,154.425,25,5.7,mw,,,,,iscgem,iscgem878370,2015-05-13T18:52:54.000Z,"Bougainville region, Papua New Guinea",earthquake,,,,,automatic,iscgem,iscgem
+1960-02-24T13:12:34.010Z,34.0111667,-117.5865,4.43,3.79,ml,8,137,0.1762,0.26,ci,ci3351199,2016-01-28T19:43:21.630Z,"6km SE of Ontario, CA",earthquake,1.19,0.97,0.046,12,reviewed,ci,ci
+1960-02-24T21:37:12.000Z,-7.247,155.849,50,6.2,mw,,,,,iscgem,iscgem878380,2015-05-13T18:52:54.000Z,"Solomon Islands",earthquake,,,,,automatic,iscgem,iscgem
+1960-02-25T01:39:49.740Z,35.3805,-118.6816667,6,3,ml,7,190,0.3287,0.58,ci,ci3351200,2016-01-28T19:34:49.780Z,"23km NE of Arvin, CA",earthquake,2.65,31.61,0.131,10,reviewed,ci,ci
+1960-02-26T12:58:42.760Z,35.3305,-118.6135,6,3.32,ml,10,152,0.3505,0.63,ci,ci3351201,2016-01-28T20:00:40.930Z,"24km NE of Arvin, CA",earthquake,2.13,31.61,0.045,11,reviewed,ci,ci
+1960-02-26T23:29:31.000Z,51.146,-177.853,35,6,mw,,,,,iscgem,iscgem878397,2015-05-13T18:52:54.000Z,"Andreanof Islands, Aleutian Islands, Alaska",earthquake,,,,,automatic,iscgem,iscgem
+1960-02-27T08:10:11.000Z,51.278,-177.89,46.9,5.8,mw,,,,,iscgem,iscgem878399,2015-05-13T18:52:54.000Z,"Andreanof Islands, Aleutian Islands, Alaska",earthquake,,,,,automatic,iscgem,iscgem
+1960-02-27T08:40:30.780Z,33.9643333,-117.8123333,2.99,2.56,ml,6,160,0.3295,0.08,ci,ci3351202,2016-01-28T19:56:21.080Z,"6km WSW of Chino Hills, CA",earthquake,0.75,1.4,0.135,5,reviewed,ci,ci
+1960-02-28T02:55:34.220Z,34.337,-119.8323333,8,3.09,ml,7,289,0.1419,0.43,ci,ci3351203,2016-01-28T19:38:57.080Z,"9km SSE of Isla Vista, CA",earthquake,3.07,1.7,0.023,3,reviewed,ci,ci
+1960-02-29T23:40:18.000Z,30.351,-9.69,15,5.8,mw,,,,,iscgem,iscgem878424,2016-02-16T23:37:18.978Z,"Morocco",earthquake,,,,,automatic,iscgem,iscgem
+1960-03-01T12:39:57.070Z,33.6765,-118.0523333,11.05,2.95,ml,9,156,0.2768,0.31,ci,ci3351204,2016-01-28T19:30:37.870Z,"5km WSW of Huntington Beach, CA",earthquake,1.04,1.33,0.242,8,reviewed,ci,ci
+1960-03-02T02:46:43.200Z,32.2476667,-115.7981667,6,3.67,ml,3,296,0.8554,0.12,ci,ci3351205,2016-01-28T19:38:57.610Z,"42km SSW of Progreso, B.C., MX",earthquake,2.24,31.61,0.115,7,reviewed,ci,ci
+1960-03-04T02:20:13.590Z,33.6638333,-118.048,9.15,2.66,ml,7,160,0.2839,0.34,ci,ci3351206,2016-01-28T19:47:38.750Z,"6km SW of Huntington Beach, CA",earthquake,1.13,2.23,0.213,4,reviewed,ci,ci
+1960-03-04T21:05:52.000Z,7.384,94.235,25,5.8,mw,,,,,iscgem,iscgem878452,2015-05-13T18:52:54.000Z,"Nicobar Islands, India region",earthquake,,,,,automatic,iscgem,iscgem
+1960-03-05T11:25:07.000Z,29.411,81.158,25,5.7,mw,,,,,iscgem,iscgem878455,2015-05-13T18:52:54.000Z,"Nepal",earthquake,,,,,automatic,iscgem,iscgem
+1960-03-05T13:49:24.000Z,0.769,128.909,30,6.6,mw,,,,,iscgem,iscgem878456,2015-05-13T18:52:54.000Z,"Halmahera, Indonesia",earthquake,,,,,automatic,iscgem,iscgem
+1960-03-06T02:22:15.000Z,0.852,128.776,30,6.1,mw,,,,,iscgem,iscgem878461,2015-05-13T18:52:54.000Z,"Halmahera, Indonesia",earthquake,,,,,automatic,iscgem,iscgem
+1960-03-06T04:11:58.000Z,23.93,-108.427,15,6.1,mw,,,,,iscgem,iscgem878462,2015-05-13T18:52:54.000Z,"Gulf of California",earthquake,,,,,automatic,iscgem,iscgem
+1960-03-06T04:26:42.610Z,34.9913333,-118.8283333,1.55,3.49,ml,11,88,0.1333,0.59,ci,ci3351207,2016-01-28T19:30:38.370Z,"11km ENE of Grapevine, CA",earthquake,0.99,2.86,0.077,11,reviewed,ci,ci
+1960-03-08T00:30:42.210Z,35.1175,-118.6775,6,2.83,ml,5,159,0.306,0.34,ci,ci3351208,2016-01-28T19:43:22.150Z,"17km SE of Arvin, CA",earthquake,1.32,31.61,0.05,8,reviewed,ci,ci
+1960-03-10T09:45:05.000Z,-10.054,161.011,35,5.7,mw,,,,,iscgem,iscgem878493,2015-05-13T18:52:54.000Z,"Solomon Islands",earthquake,,,,,automatic,iscgem,iscgem
+1960-03-10T13:44:27.000Z,-15.278,-173.262,15,5.7,mw,,,,,iscgem,iscgem878494,2015-05-13T18:52:54.000Z,"Tonga",earthquake,,,,,automatic,iscgem,iscgem
+1960-03-12T11:54:03.000Z,41.805,20.977,10,5.8,mw,,,,,iscgem,iscgem878509,2015-05-13T18:52:54.000Z,"Macedonia",earthquake,,,,,automatic,iscgem,iscgem
+1960-03-12T20:30:48.000Z,-6.104,152.444,35,6.3,mw,,,,,iscgem,iscgem878513,2015-05-13T18:52:54.000Z,"New Britain region, Papua New Guinea",earthquake,,,,,automatic,iscgem,iscgem
+1960-03-16T08:21:36.000Z,34.3653333,-118.9785,6,3.22,ml,8,159,0.5091,0.54,ci,ci3351209,2016-01-28T19:34:50.310Z,"7km SW of Fillmore, CA",earthquake,2.26,31.61,0.203,11,reviewed,ci,ci
+1960-03-16T17:39:22.000Z,-15.782,-173.076,25,5.9,mw,,,,,iscgem,iscgem878541,2015-05-13T18:52:54.000Z,"Tonga",earthquake,,,,,automatic,iscgem,iscgem
+1960-03-19T07:11:36.820Z,33.982,-117.0123333,11.43,2.55,ml,9,117,0.3019,0.38,ci,ci3351210,2016-01-28T19:34:50.800Z,"4km E of Calimesa, CA",earthquake,1.04,2.09,0.017,5,reviewed,ci,ci
+1960-03-19T16:09:46.570Z,33.4878333,-116.5631667,6.08,2.86,ml,6,126,0.284,0.34,ci,ci3351211,2016-01-28T19:34:51.330Z,"13km SE of Anza, CA",earthquake,0.88,2.4,0.054,5,reviewed,ci,ci
+1960-03-20T13:36:55.000Z,39.906,143.194,34,5.8,mw,,,,,iscgem,iscgem878562,2015-05-13T18:52:54.000Z,"off the east coast of Honshu, Japan",earthquake,,,,,automatic,iscgem,iscgem
+1960-03-20T17:07:31.000Z,39.869,143.228,15,8,mw,,,,,iscgem,iscgem878564,2015-05-13T18:52:54.000Z,"off the east coast of Honshu, Japan",earthquake,,,,,automatic,iscgem,iscgem
+1960-03-21T00:34:54.000Z,39.781,143.225,15,6.1,mw,,,,,iscgem,iscgem878572,2015-05-13T18:52:54.000Z,"off the east coast of Honshu, Japan",earthquake,,,,,automatic,iscgem,iscgem
+1960-03-21T01:49:47.000Z,-16.338,-173.227,25,5.7,mw,,,,,iscgem,iscgem878573,2015-05-13T18:52:54.000Z,"Tonga",earthquake,,,,,automatic,iscgem,iscgem
+1960-03-21T09:18:24.000Z,39.619,143.42,15,6,mw,,,,,iscgem,iscgem878584,2015-05-13T18:52:54.000Z,"off the east coast of Honshu, Japan",earthquake,,,,,automatic,iscgem,iscgem
+1960-03-22T02:31:24.000Z,-61.377,155.086,15,6.1,mw,,,,,iscgem,iscgem878596,2015-05-13T18:52:54.000Z,"Balleny Islands region",earthquake,,,,,automatic,iscgem,iscgem
+1960-03-23T00:23:28.000Z,39.635,143.316,15,7,mw,,,,,iscgem,iscgem878607,2015-05-13T18:52:54.000Z,"off the east coast of Honshu, Japan",earthquake,,,,,automatic,iscgem,iscgem
+1960-03-23T01:07:18.000Z,39.516,143.321,15,6.4,mw,,,,,iscgem,iscgem878608,2015-05-13T18:52:54.000Z,"off the east coast of Honshu, Japan",earthquake,,,,,automatic,iscgem,iscgem
+1960-03-23T08:46:45.000Z,39.765,143.232,15,5.9,mw,,,,,iscgem,iscgem878620,2015-05-13T18:52:54.000Z,"off the east coast of Honshu, Japan",earthquake,,,,,automatic,iscgem,iscgem
+1960-03-23T10:28:54.000Z,39.137,143.598,25,5.9,mw,,,,,iscgem,iscgem878622,2015-05-13T18:52:54.000Z,"off the east coast of Honshu, Japan",earthquake,,,,,automatic,iscgem,iscgem
+1960-03-23T11:51:02.000Z,39.146,143.564,25,5.8,mw,,,,,iscgem,iscgem878623,2015-05-13T18:52:54.000Z,"off the east coast of Honshu, Japan",earthquake,,,,,automatic,iscgem,iscgem
+1960-03-23T22:22:40.000Z,39.235,143.303,15,6.2,mw,,,,,iscgem,iscgem878627,2015-05-13T18:52:54.000Z,"off the east coast of Honshu, Japan",earthquake,,,,,automatic,iscgem,iscgem
+1960-03-24T09:56:08.370Z,36.2255,-118.3125,6,3.35,ml,8,144,0.3083,0.46,ci,ci3350771,2016-01-28T19:52:03.900Z,"28km WSW of Olancha, CA",earthquake,1.2,31.61,0.158,11,reviewed,ci,ci
+1960-03-24T11:04:42.310Z,34.9961667,-118.867,4.68,2.8,ml,6,161,0.1273,0.44,ci,ci3350772,2016-01-28T20:00:41.410Z,"8km NE of Grapevine, CA",earthquake,1.38,1.79,0.07,8,reviewed,ci,ci
+1960-03-25T00:27:43.060Z,33.9396667,-117.5621667,0,3.15,ml,8,144,0.1642,0.5,ci,ci3350773,2016-01-28T19:38:58.100Z,"2km NW of Norco, CA",earthquake,1.62,3.48,0.071,5,reviewed,ci,ci
+1960-03-25T14:31:45.780Z,35.9735,-118.4083333,6,3.2,ml,10,134,0.3146,0.52,ci,ci3350774,2016-01-28T19:34:51.820Z,"24km N of Kernville, CA",earthquake,1.25,31.61,0.069,9,reviewed,ci,ci
+1960-03-27T03:48:35.000Z,-13.569,166.014,50,6,mw,,,,,iscgem,iscgem878654,2015-05-13T18:52:54.000Z,"Vanuatu",earthquake,,,,,automatic,iscgem,iscgem
+1960-03-27T08:58:00.000Z,-13.314,166.005,25,6.1,mw,,,,,iscgem,iscgem878656,2015-05-13T18:52:54.000Z,"Vanuatu",earthquake,,,,,automatic,iscgem,iscgem
+1960-03-27T20:15:39.000Z,18.798,-105.508,15,6,mw,,,,,iscgem,iscgem878660,2015-05-13T18:52:54.000Z,"offshore Jalisco, Mexico",earthquake,,,,,automatic,iscgem,iscgem
+1960-03-28T00:13:44.000Z,7.388,-81.878,25,6.3,mw,,,,,iscgem,iscgem878663,2015-05-13T18:52:54.000Z,"Panama",earthquake,,,,,automatic,iscgem,iscgem
+1960-03-28T06:36:06.000Z,-13.663,165.92,39.1,5.7,mw,,,,,iscgem,iscgem878666,2015-05-13T18:52:54.000Z,"Vanuatu",earthquake,,,,,automatic,iscgem,iscgem
+1960-03-29T06:31:00.000Z,-16.97,167.433,10,6.7,mw,,,,,iscgem,iscgem878676,2015-05-13T18:52:54.000Z,"Vanuatu",earthquake,,,,,automatic,iscgem,iscgem
+1960-03-29T09:58:14.580Z,35.9765,-117.447,0.19,2.96,ml,6,227,0.2017,0.47,ci,ci3350775,2016-01-28T19:52:04.480Z,"24km N of Searles Valley, CA",earthquake,2.27,4.1,0.178,8,reviewed,ci,ci
+1960-03-29T22:10:30.000Z,-6.169,147.766,50,6,mw,,,,,iscgem,iscgem878681,2015-05-13T18:52:54.000Z,"eastern New Guinea region, Papua New Guinea",earthquake,,,,,automatic,iscgem,iscgem
+1960-03-30T10:49:54.000Z,-13.672,166.048,32.9,5.9,mw,,,,,iscgem,iscgem878687,2015-05-13T18:52:54.000Z,"Vanuatu",earthquake,,,,,automatic,iscgem,iscgem
+1960-03-30T15:19:36.000Z,-22.474,173.67,35,5.8,mw,,,,,iscgem,iscgem878691,2015-05-13T18:52:54.000Z,"southeast of the Loyalty Islands",earthquake,,,,,automatic,iscgem,iscgem
+1960-03-31T19:56:18.000Z,25.986,-110.262,15,6,mw,,,,,iscgem,iscgem878707,2015-05-13T18:52:54.000Z,"Gulf of California",earthquake,,,,,automatic,iscgem,iscgem
+1960-04-01T14:12:13.000Z,48.953,-128.877,15,5.8,mw,,,,,iscgem,iscgem878713,2015-05-13T18:52:54.000Z,"Vancouver Island, Canada region",earthquake,,,,,automatic,iscgem,iscgem
+1960-04-02T19:01:16.520Z,36.43,-120.7526667,6,3.8,ml,6,297,1.709,0.51,ci,ci3350776,2016-01-28T19:43:22.610Z,"42km NE of King City, CA",earthquake,3.45,31.61,0.369,9,reviewed,ci,ci
+1960-04-05T07:17:48.000Z,-60.562,-24.872,15,6,mw,,,,,iscgem,iscgem878746,2015-05-13T18:52:54.000Z,"South Sandwich Islands region",earthquake,,,,,automatic,iscgem,iscgem
+1960-04-05T12:36:18.000Z,-60.633,-24.838,15,5.9,mw,,,,,iscgem,iscgem878748,2015-05-13T18:52:54.000Z,"South Sandwich Islands region",earthquake,,,,,automatic,iscgem,iscgem
+1960-04-11T23:35:46.520Z,34.6041667,-117.0538333,0.01,2.57,ml,6,190,0.6648,0.4,ci,ci3350777,2016-04-02T19:58:10.470Z,"17km NE of Apple Valley, CA",quarry blast,1.36,31.61,0.186,4,reviewed,ci,ci
+1960-04-13T02:50:16.370Z,32.721,-115.7968333,6,3.65,ml,3,261,0.7391,0.22,ci,ci3350778,2016-01-28T19:52:05.010Z,"18km E of Ocotillo, CA",earthquake,1.96,31.61,0.05,4,reviewed,ci,ci
+1960-04-13T07:57:51.000Z,44.653,126.924,20,5.7,mw,,,,,iscgem,iscgem878788,2015-05-13T18:52:54.000Z,"Jilin, China",earthquake,,,,,automatic,iscgem,iscgem
+1960-04-13T12:37:44.000Z,15.425,-92.014,20,5.8,mw,,,,,iscgem,iscgem878790,2015-05-13T18:52:54.000Z,"Guatemala",earthquake,,,,,automatic,iscgem,iscgem
+1960-04-14T20:45:24.330Z,32.917,-115.47,6,3.22,ml,4,268,0.1357,0.39,ci,ci3350779,2016-01-28T20:04:39.760Z,"9km SE of Brawley, CA",earthquake,3.93,31.61,0.21,5,reviewed,ci,ci
+1960-04-15T03:25:44.000Z,-27.099,-113.33,15,6,mw,,,,,iscgem,iscgem878800,2015-05-13T18:52:54.000Z,"Easter Island region",earthquake,,,,,automatic,iscgem,iscgem
+1960-04-15T19:43:39.760Z,34.8621667,-116.6123333,6,2.53,mh,7,183,1.072,0.44,ci,ci3350780,2016-01-28T19:43:23.110Z,"38km E of Barstow, CA",earthquake,1.84,31.61,0.23,11,reviewed,ci,ci
+1960-04-15T22:05:14.000Z,-13.702,166.06,35,6.2,mw,,,,,iscgem,iscgem878809,2015-05-13T18:52:54.000Z,"Vanuatu",earthquake,,,,,automatic,iscgem,iscgem
+1960-04-21T02:16:35.000Z,-2.763,-109.592,15,5.7,mw,,,,,iscgem,iscgem878842,2015-05-13T18:52:54.000Z,"east central Pacific Ocean",earthquake,,,,,automatic,iscgem,iscgem
+1960-04-21T18:08:35.550Z,32.6546667,-115.6936667,6,3.87,ml,4,271,0.8257,0.38,ci,ci3350781,2016-01-28T19:34:52.320Z,"13km NW of Progreso, B.C., MX",earthquake,3.69,31.61,0.253,10,reviewed,ci,ci
+1960-04-21T18:11:12.620Z,32.6583333,-115.7126667,6,3.55,ml,3,269,0.1963,0.28,ci,ci3350782,2016-01-28T19:53:22.880Z,"15km NW of Progreso, B.C., MX",earthquake,2.57,31.61,0.088,8,reviewed,ci,ci
+1960-04-21T18:36:23.440Z,32.6118333,-115.7173333,6,3.4,mh,2,328,0.8084,0.4,ci,ci10086486,2016-01-28T19:43:23.610Z,"13km WNW of Progreso, B.C., MX",earthquake,4.02,31.61,,0,reviewed,ci,ci
+1960-04-21T22:53:28.280Z,32.6375,-115.6775,6,3.18,ml,3,273,0.8401,0.33,ci,ci3350783,2016-01-28T19:52:05.530Z,"11km NW of Progreso, B.C., MX",earthquake,3.37,31.61,0.036,3,reviewed,ci,ci
+1960-04-21T23:39:20.350Z,32.7091667,-115.7263333,6,4.24,ml,6,210,,0.7,ci,ci3350784,2016-01-28T19:31:49.160Z,"18km WSW of El Centro, CA",earthquake,2.7,31.61,0.117,12,reviewed,ci,ci
+1960-04-24T12:14:31.000Z,27.814,54.497,15,5.9,mw,,,,,iscgem,iscgem878868,2015-05-13T18:52:54.000Z,"southern Iran",earthquake,,,,,automatic,iscgem,iscgem
+1960-04-24T23:46:27.650Z,33.0315,-115.8791667,6,3.68,ml,4,163,,0.22,ci,ci3351180,2016-01-28T19:49:03.940Z,"24km W of Westmorland, CA",earthquake,1.61,31.61,0.203,9,reviewed,ci,ci
+1960-04-26T10:42:00.340Z,33.9618333,-117.6138333,2.08,2.52,ml,8,145,0.2006,0.52,ci,ci3351182,2016-01-28T19:38:58.600Z,"7km WNW of Norco, CA",earthquake,2.7,3.46,0.232,5,reviewed,ci,ci
+1960-04-28T02:10:18.000Z,-59.742,-26.368,25,5.7,mw,,,,,iscgem,iscgem878900,2015-05-13T18:52:54.000Z,"South Sandwich Islands region",earthquake,,,,,automatic,iscgem,iscgem
+1960-04-30T04:01:40.000Z,-0.023,121.642,35,5.9,mw,,,,,iscgem,iscgem878932,2015-05-13T18:52:54.000Z,"Sulawesi, Indonesia",earthquake,,,,,automatic,iscgem,iscgem
+1960-05-08T02:26:59.070Z,33.0698333,-116.5851667,15.89,3.24,ml,7,141,0.3663,0.23,ci,ci3351183,2016-01-28T19:56:21.580Z,"2km ESE of Julian, CA",earthquake,0.76,1.78,0.045,7,reviewed,ci,ci
+1960-05-09T06:42:33.730Z,34.136,-117.8153333,0.48,1.82,ml,5,139,0.2196,0.31,ci,ci3351184,2016-01-28T19:43:24.060Z,"3km NNW of San Dimas, CA",earthquake,3.49,4.94,0.07,5,reviewed,ci,ci
+1960-05-11T07:02:57.110Z,33.1235,-116.4111667,6,3.36,ml,5,160,0.4425,0.54,ci,ci3350680,2016-01-28T19:47:39.240Z,"15km SSW of Borrego Springs, CA",earthquake,1.44,31.61,0.126,8,reviewed,ci,ci
+1960-05-11T18:36:07.000Z,-3.238,130.838,35,6.2,mw,,,,,iscgem,iscgem879044,2015-05-13T18:52:54.000Z,"Seram, Indonesia",earthquake,,,,,automatic,iscgem,iscgem
+1960-05-12T07:22:20.820Z,33.9773333,-117.5733333,3.81,2.99,ml,8,141,0.1652,0.38,ci,ci3350681,2016-01-28T19:43:24.550Z,"6km WSW of Mira Loma, CA",earthquake,1.01,1.19,0.247,8,reviewed,ci,ci
+1960-05-12T22:32:35.000Z,7.467,-80.805,10,5.8,mw,,,,,iscgem,iscgem879051,2015-05-13T18:52:54.000Z,"Panama",earthquake,,,,,automatic,iscgem,iscgem
+1960-05-13T12:36:41.460Z,32.4656667,-115.7761667,6,4,ml,5,282,0.7861,0.63,ci,ci3350682,2016-01-28T19:38:59.090Z,"22km SW of Progreso, B.C., MX",earthquake,5.16,31.61,0.179,13,reviewed,ci,ci
+1960-05-13T16:07:19.000Z,54.898,-161.262,44.2,5.8,mw,,,,,iscgem,iscgem879057,2015-05-13T18:52:54.000Z,"Alaska Peninsula",earthquake,,,,,automatic,iscgem,iscgem
+1960-05-14T22:20:00.000Z,52.882,159.942,60,5.5,mw,,,,,iscgem,iscgem879065,2015-05-13T18:52:54.000Z,"off the east coast of the Kamchatka Peninsula, Russia",earthquake,,,,,automatic,iscgem,iscgem
+1960-05-16T03:34:31.420Z,35.1886667,-118.6313333,6,2.11,mh,4,162,0.3858,0.17,ci,ci3350683,2016-01-28T19:56:22.070Z,"18km WNW of Tehachapi, CA",earthquake,1.21,31.61,0.136,4,reviewed,ci,ci
+1960-05-18T06:35:11.000Z,29.181,130.004,59.4,6.5,mw,,,,,iscgem,iscgem879081,2015-05-13T18:52:54.000Z,"Ryukyu Islands, Japan",earthquake,,,,,automatic,iscgem,iscgem
+1960-05-18T07:08:59.600Z,33.1236667,-116.0003333,6,3.57,ml,5,103,0.4991,0.27,ci,ci3350684,2016-01-28T19:57:31.390Z,"12km E of Ocotillo Wells, CA",earthquake,1.09,31.61,0.077,5,reviewed,ci,ci
+1960-05-18T11:13:12.330Z,33.893,-118.6603333,6,3.11,ml,10,103,0.4796,0.63,ci,ci3350765,2016-01-28T19:34:52.820Z,"16km S of Malibu Beach, CA",earthquake,1.38,31.61,0.15,10,reviewed,ci,ci
+1960-05-19T06:27:31.880Z,33.9333333,-118.6436667,6,2.81,ml,10,117,0.4472,0.51,ci,ci3350686,2016-01-28T19:38:59.590Z,"12km S of Las Flores, CA",earthquake,1.13,31.61,0.162,6,reviewed,ci,ci
+1960-05-19T10:11:58.000Z,-17.616,66.166,15,6.1,mw,,,,,iscgem,iscgem879087,2015-05-13T18:52:54.000Z,"Mauritius - Reunion region",earthquake,,,,,automatic,iscgem,iscgem
+1960-05-20T11:12:36.000Z,-28.5,167.61,15,6.5,mw,,,,,iscgem,iscgem879097,2015-05-13T18:52:54.000Z,"Norfolk Island, Australia region",earthquake,,,,,automatic,iscgem,iscgem
+1960-05-20T23:30:37.900Z,34.5981667,-117.0001667,0.01,2.78,ml,7,195,0.6785,0.6,ci,ci3350687,2016-04-02T19:58:06.680Z,"17km N of Lucerne Valley, CA",quarry blast,2.55,31.61,0.286,5,reviewed,ci,ci
+1960-05-21T10:02:57.000Z,-37.824,-73.353,25,8.1,mw,,,,,iscgem,iscgem879106,2015-05-13T18:52:54.000Z,"Bio-Bio, Chile",earthquake,,,,,automatic,iscgem,iscgem
+1960-05-21T13:00:04.000Z,-37.364,-73.194,25,6.2,mw,,,,,iscgem,iscgem879111,2015-05-13T18:52:54.000Z,"Bio-Bio, Chile",earthquake,,,,,automatic,iscgem,iscgem
+1960-05-21T21:43:07.020Z,34.3585,-118.768,6,2.47,ml,7,228,0.5233,0.47,ci,ci3350688,2016-01-28T20:00:42.900Z,"7km SSE of Piru, CA",earthquake,3.08,31.61,0.18,6,reviewed,ci,ci
+1960-05-22T06:01:39.000Z,-38.064,-73.962,15,5.8,mw,,,,,iscgem,iscgem879123,2015-05-13T18:52:54.000Z,"offshore Bio-Bio, Chile",earthquake,,,,,automatic,iscgem,iscgem
+1960-05-22T08:10:59.000Z,-37.975,-73.127,25,5.8,mw,,,,,iscgem,iscgem879126,2015-05-13T18:52:54.000Z,"Araucania, Chile",earthquake,,,,,automatic,iscgem,iscgem
+1960-05-22T10:30:44.000Z,-37.775,-73.017,25,7.1,mw,,,,,iscgem,iscgem879127,2015-05-13T18:52:54.000Z,"Bio-Bio, Chile",earthquake,,,,,automatic,iscgem,iscgem
+1960-05-22T10:32:47.000Z,-37.86,-73.149,25,6.8,mw,,,,,iscgem,iscgem879128,2015-05-13T18:52:54.000Z,"Bio-Bio, Chile",earthquake,,,,,automatic,iscgem,iscgem
+1960-05-22T18:56:02.000Z,-38.061,-73.039,25,8.6,mw,,,,,iscgem,iscgem879134,2015-05-13T18:52:54.000Z,"Araucania, Chile",earthquake,,,,,automatic,iscgem,iscgem
+1960-05-22T19:11:20.000Z,-38.143,-73.407,25,9.6,mw,,,,,iscgem,iscgem879136,2015-05-13T18:52:54.000Z,"Bio-Bio, Chile",earthquake,,,,,automatic,iscgem,iscgem
+1960-05-23T00:25:48.000Z,-38.543,-73.866,20,6.5,mw,,,,,iscgem,iscgem879149,2015-05-13T18:52:54.000Z,"offshore Araucania, Chile",earthquake,,,,,automatic,iscgem,iscgem
+1960-05-23T02:46:35.000Z,-41.579,-73.367,25,6.2,mw,,,,,iscgem,iscgem879166,2015-05-13T18:52:54.000Z,"Los Lagos, Chile",earthquake,,,,,automatic,iscgem,iscgem
+1960-05-23T02:56:20.000Z,-43.1,-75.287,20,6.2,mw,,,,,iscgem,iscgem879167,2015-05-13T18:52:54.000Z,"offshore Los Lagos, Chile",earthquake,,,,,automatic,iscgem,iscgem
+1960-05-23T05:13:39.000Z,-38.162,-72.691,25,6.4,mw,,,,,iscgem,iscgem879175,2015-05-13T18:52:54.000Z,"Araucania, Chile",earthquake,,,,,automatic,iscgem,iscgem
+1960-05-23T07:09:21.000Z,-48.089,-75.698,20,6.1,mw,,,,,iscgem,iscgem879180,2015-05-13T18:52:54.000Z,"near the coast of Aisen, Chile",earthquake,,,,,automatic,iscgem,iscgem
+1960-05-23T09:52:22.000Z,-37.859,-73.152,25,6.2,mw,,,,,iscgemsup,iscgemsup879184,2015-07-13T17:02:23.000Z,"Bio-Bio, Chile",earthquake,,,,,automatic,iscgem,iscgem
+1960-05-23T10:38:04.000Z,-43.642,-73.613,20,6.1,mw,,,,,iscgem,iscgem879185,2015-05-13T18:52:54.000Z,"Golfo de Corcovado, Los Lagos, Chile",earthquake,,,,,automatic,iscgem,iscgem
+1960-05-23T12:25:18.180Z,33.1061667,-116.4466667,6,3.26,ml,5,245,0.4272,0.52,ci,ci3350689,2016-01-28T19:34:53.350Z,"15km ENE of Julian, CA",earthquake,4.77,31.61,0.06,5,reviewed,ci,ci
+1960-05-24T14:46:41.000Z,-44.187,167.818,15,6.2,mw,,,,,iscgem,iscgem879218,2015-05-13T18:52:54.000Z,"South Island of New Zealand",earthquake,,,,,automatic,iscgem,iscgem
+1960-05-24T15:30:57.870Z,34.1846667,-118.2095,6,1.5,mh,2,294,0.04812,0.03,ci,ci10086490,2016-04-01T21:39:34.080Z,"3km SW of La Canada Flintridge, CA",earthquake,1.87,31.61,,0,reviewed,ci,ci
+1960-05-24T20:32:46.000Z,-50.88,-73.157,15,6,mw,,,,,iscgem,iscgem879222,2015-05-13T18:52:54.000Z,"southern Chile-Argentina border region",earthquake,,,,,automatic,iscgem,iscgem
+1960-05-25T08:34:42.000Z,-44.808,-75.985,20,6.7,mw,,,,,iscgem,iscgem879232,2015-05-13T18:52:54.000Z,"off the coast of Aisen, Chile",earthquake,,,,,automatic,iscgem,iscgem
+1960-05-25T09:37:16.040Z,34.1925,-118.214,6,1.96,mh,2,296,0.0565,0.07,ci,ci3350690,2016-01-28T19:30:39.360Z,"2km WSW of La Canada Flintridge, CA",earthquake,1.89,31.61,0.193,7,reviewed,ci,ci
+1960-05-25T12:38:25.140Z,34.1943333,-118.213,6,1.5,mh,2,295,0.05743,0.03,ci,ci10086494,2016-04-02T16:57:58.854Z,"2km WSW of La Canada Flintridge, CA",earthquake,1.74,31.61,,0,reviewed,ci,ci
+1960-05-25T13:34:55.600Z,34.189,-118.2018333,6,1.5,mh,2,286,0.04778,0.03,ci,ci10086498,2016-01-28T19:56:23.430Z,"2km SW of La Canada Flintridge, CA",earthquake,1.95,31.61,,0,reviewed,ci,ci
+1960-05-25T13:51:28.300Z,34.1846667,-118.2028333,6,1.3,mh,2,288,0.04467,0.01,ci,ci10086502,2016-01-28T19:56:22.990Z,"2km SW of La Canada Flintridge, CA",earthquake,1.96,31.61,,0,reviewed,ci,ci
+1960-05-26T05:10:16.000Z,40.619,20.629,20,6.2,mw,,,,,iscgem,iscgem879257,2015-05-13T18:52:54.000Z,"Albania",earthquake,,,,,automatic,iscgem,iscgem
+1960-05-26T19:12:17.130Z,32.1366667,-116.299,6,3.79,ml,7,275,0.6271,0.4,ci,ci3350691,2016-01-28T19:36:06.230Z,"42km NE of Ensenada, B.C., MX",earthquake,2.52,31.61,0.067,7,reviewed,ci,ci
+1960-05-27T11:24:14.170Z,34.2035,-118.234,6,1.2,mh,2,306,0.0757,0.23,ci,ci10086506,2016-01-28T19:39:00.070Z,"3km S of La Crescenta-Montrose, CA",earthquake,2.8,31.61,,0,reviewed,ci,ci
+1960-05-27T13:24:27.670Z,34.214,-118.2288333,6,1.1,mh,2,303,0.08101,0.15,ci,ci10086510,2016-01-28T19:39:00.570Z,"2km SSE of La Crescenta-Montrose, CA",earthquake,2.12,31.61,,0,reviewed,ci,ci
+1960-05-27T23:06:57.000Z,-45.166,-76.255,15,5.8,mw,,,,,iscgem,iscgem879295,2015-05-13T18:52:54.000Z,"off the coast of Aisen, Chile",earthquake,,,,,automatic,iscgem,iscgem
+1960-05-28T11:05:47.000Z,-37.713,-72.77,25,6,mw,,,,,iscgem,iscgem879303,2015-05-13T18:52:54.000Z,"Araucania, Chile",earthquake,,,,,automatic,iscgem,iscgem
+1960-05-29T04:58:33.360Z,34.1905,-118.2011667,6,1.2,mh,2,285,0.04877,0.08,ci,ci10086514,2016-01-28T19:52:05.990Z,"2km SW of La Canada Flintridge, CA",earthquake,2.19,31.61,,0,reviewed,ci,ci
+1960-05-29T07:39:33.000Z,-37.689,-72.436,25,6.3,mw,,,,,iscgem,iscgem879315,2015-05-13T18:52:54.000Z,"Bio-Bio, Chile",earthquake,,,,,automatic,iscgem,iscgem
+1960-05-29T08:34:25.000Z,-37.749,-73.23,25,5.9,mw,,,,,iscgem,iscgem879317,2015-05-13T18:52:54.000Z,"Bio-Bio, Chile",earthquake,,,,,automatic,iscgem,iscgem
+1960-05-29T21:23:59.000Z,-43.092,-75.904,20,5.9,mw,,,,,iscgem,iscgem879321,2015-05-13T18:52:54.000Z,"off the coast of Los Lagos, Chile",earthquake,,,,,automatic,iscgem,iscgem
+1960-05-31T02:40:04.000Z,-39.649,-75.612,15,6,mw,,,,,iscgem,iscgem879331,2015-05-13T18:52:54.000Z,"off the coast of Los Lagos, Chile",earthquake,,,,,automatic,iscgem,iscgem
+1960-05-31T05:38:51.680Z,35.2833333,-118.5971667,6,2.11,mh,3,198,0.3917,0.28,ci,ci3350692,2016-01-28T19:52:06.400Z,"22km NW of Tehachapi, CA",earthquake,2.14,31.61,0.122,5,reviewed,ci,ci
+1960-05-31T11:02:22.000Z,17.638,-61.749,30,6.2,mw,,,,,iscgem,iscgem879338,2015-05-13T18:52:54.000Z,"Barbuda, Leeward Islands",earthquake,,,,,automatic,iscgem,iscgem
+1960-05-31T19:17:37.740Z,32.0715,-116.2186667,6,4,mh,5,345,0.7179,0.66,ci,ci12277819,2016-04-02T16:57:42.481Z,"44km ENE of Ensenada, B.C., MX",earthquake,12.28,31.61,,0,reviewed,ci,ci
+1960-06-01T05:03:02.000Z,-37.895,-73.014,35,6.1,mw,,,,,iscgem,iscgem879348,2015-05-13T18:52:54.000Z,"Araucania, Chile",earthquake,,,,,automatic,iscgem,iscgem
+1960-06-02T05:58:06.000Z,-46.215,-74.058,15,6.1,mw,,,,,iscgem,iscgem879364,2015-05-13T18:52:54.000Z,"Aisen, Chile",earthquake,,,,,automatic,iscgem,iscgem
+1960-06-02T07:47:17.000Z,-5.621,151.356,25,6.3,mw,,,,,iscgem,iscgem879368,2015-05-13T18:52:54.000Z,"New Britain region, Papua New Guinea",earthquake,,,,,automatic,iscgem,iscgem
+1960-06-03T16:18:06.000Z,41.555,142.121,64,5.6,mw,,,,,iscgem,iscgem879387,2015-05-13T18:52:54.000Z,"Hokkaido, Japan region",earthquake,,,,,automatic,iscgem,iscgem
+1960-06-03T21:38:01.940Z,31.5,-114,6,4.8,mh,6,339,2.555,1.7,ci,ci10086518,2016-01-28T19:30:39.840Z,"122km SE of Estacion Coahuila, B.C., MX",earthquake,99,31.61,,0,reviewed,ci,ci
+1960-06-03T22:02:34.160Z,31.5,-114,6,4.4,mh,4,332,2.555,3.85,ci,ci10086522,2016-01-28T19:56:23.850Z,"122km SE of Estacion Coahuila, B.C., MX",earthquake,99,31.61,,0,reviewed,ci,ci
+1960-06-04T02:27:10.000Z,19.489,-104.594,50,5.6,mw,,,,,iscgem,iscgem879393,2015-05-13T18:52:54.000Z,"Jalisco, Mexico",earthquake,,,,,automatic,iscgem,iscgem
+1960-06-05T07:46:55.610Z,38.4063333,-119.0971667,6,5.51,ml,12,322,1.515,5.36,ci,ci3350693,2016-01-28T20:00:43.400Z,"43km WSW of Hawthorne, NV",earthquake,99,31.61,0.041,5,reviewed,ci,ci
+1960-06-06T01:17:53.000Z,40.729,-124.792,15,6,mw,,,,,iscgem,iscgem879414,2015-05-13T18:52:54.000Z,"offshore Northern California",earthquake,,,,,automatic,iscgem,iscgem
+1960-06-06T05:55:48.000Z,-45.785,-72.889,15,7.8,mw,,,,,iscgem,iscgem879416,2015-05-13T18:52:54.000Z,"Aisen, Chile",earthquake,,,,,automatic,iscgem,iscgem
+1960-06-08T02:16:56.070Z,35.1355,-118.5461667,6,2.26,mh,3,180,0.3922,0.37,ci,ci3350755,2016-01-28T19:34:53.830Z,"9km W of Tehachapi, CA",earthquake,3.3,31.61,0.036,3,reviewed,ci,ci
+1960-06-08T16:19:51.000Z,35.138,-35.015,15,5.7,mw,,,,,iscgem,iscgem879442,2015-05-13T18:52:54.000Z,"northern Mid-Atlantic Ridge",earthquake,,,,,automatic,iscgem,iscgem
+1960-06-09T11:24:00.000Z,-18.189,168.381,15,6.1,mw,,,,,iscgem,iscgem879457,2015-05-13T18:52:54.000Z,"Vanuatu",earthquake,,,,,automatic,iscgem,iscgem
+1960-06-09T17:47:44.000Z,38.114,-26.349,15,5.6,mw,,,,,iscgem,iscgem879462,2015-05-13T18:52:54.000Z,"Azores Islands, Portugal",earthquake,,,,,automatic,iscgem,iscgem
+1960-06-10T21:12:12.000Z,-15.54,-173.873,35,6.1,mw,,,,,iscgem,iscgem879468,2015-05-13T18:52:54.000Z,"Tonga",earthquake,,,,,automatic,iscgem,iscgem
+1960-06-11T15:14:15.000Z,-9.337,152.439,30,6.6,mw,,,,,iscgem,iscgem879472,2015-05-13T18:52:54.000Z,"D'Entrecasteaux Islands region",earthquake,,,,,automatic,iscgem,iscgem
+1960-06-11T16:37:48.000Z,-9.3,152.77,30,6.6,mw,,,,,iscgem,iscgem879475,2015-05-13T18:52:54.000Z,"D'Entrecasteaux Islands region",earthquake,,,,,automatic,iscgem,iscgem
+1960-06-11T21:36:56.570Z,32.229,-115.733,6,4.31,ml,7,286,0.9125,0.32,ci,ci3350758,2016-01-28T19:39:01.070Z,"42km SSW of Progreso, B.C., MX",earthquake,3.69,31.61,0.124,9,reviewed,ci,ci
+1960-06-12T07:19:48.000Z,-36.281,-98.015,15,6.2,mw,,,,,iscgem,iscgem879487,2015-05-13T18:52:54.000Z,"southeast of Easter Island",earthquake,,,,,automatic,iscgem,iscgem
+1960-06-12T16:16:59.250Z,34.0803333,-117.5051667,3.41,2.58,ml,9,125,0.1382,0.47,ci,ci3350759,2016-01-28T19:52:06.880Z,"5km WSW of Fontana, CA",earthquake,1.92,1.53,0.081,4,reviewed,ci,ci
+1960-06-12T20:36:50.420Z,33.661,-118.2663333,6,2.29,ml,7,124,0.4926,0.82,ci,ci3350760,2016-01-28T19:52:07.400Z,"9km SSE of San Pedro, CA",earthquake,2.3,31.61,0.194,4,reviewed,ci,ci
+1960-06-13T05:47:09.000Z,-44.74,-76.603,15,5.9,mw,,,,,iscgem,iscgem879499,2015-05-13T18:52:54.000Z,"off the coast of Aisen, Chile",earthquake,,,,,automatic,iscgem,iscgem
+1960-06-14T23:38:15.000Z,-9.239,152.823,15,5.8,mw,,,,,iscgem,iscgem879511,2015-05-13T18:52:54.000Z,"D'Entrecasteaux Islands region",earthquake,,,,,automatic,iscgem,iscgem
+1960-06-15T15:36:55.000Z,40.261,142.634,45,5.8,mw,,,,,iscgem,iscgem879523,2015-05-13T18:52:54.000Z,"near the east coast of Honshu, Japan",earthquake,,,,,automatic,iscgem,iscgem
+1960-06-15T22:49:42.000Z,-31.911,-177.978,15,5.9,mw,,,,,iscgem,iscgem879524,2015-05-13T18:52:54.000Z,"Kermadec Islands region",earthquake,,,,,automatic,iscgem,iscgem
+1960-06-15T23:27:45.000Z,-0.61,133.042,20,6.1,mw,,,,,iscgem,iscgem879526,2015-05-13T18:52:54.000Z,"near the north coast of Papua, Indonesia",earthquake,,,,,automatic,iscgem,iscgem
+1960-06-15T23:31:25.000Z,-32.334,-177.698,15,6.2,mw,,,,,iscgem,iscgem879527,2015-05-13T18:52:54.000Z,"south of the Kermadec Islands",earthquake,,,,,automatic,iscgem,iscgem
+1960-06-17T01:15:26.610Z,34.8988333,-116.6343333,6,2.71,ml,6,255,1.091,0.58,ci,ci3350761,2016-01-28T19:34:54.290Z,"35km E of Barstow, CA",earthquake,3.78,31.61,0.155,4,reviewed,ci,ci
+1960-06-17T16:35:40.000Z,51.638,-173.188,34,5.9,mw,,,,,iscgem,iscgem879548,2015-05-13T18:52:54.000Z,"Andreanof Islands, Aleutian Islands, Alaska",earthquake,,,,,automatic,iscgem,iscgem
+1960-06-18T19:45:52.310Z,31.4865,-116.2041667,6,3.6,mh,3,355,1.255,1.65,ci,ci10086526,2016-01-28T19:39:01.620Z,"43km SE of Maneadero, B.C., MX",earthquake,81.79,31.61,,0,reviewed,ci,ci
+1960-06-19T20:24:45.320Z,34.932,-119.2783333,6,2.9,ml,10,85,0.5495,0.73,ci,ci3350762,2016-01-28T19:47:39.720Z,"15km NW of Pine Mountain Club, CA",earthquake,1.94,31.61,0.179,8,reviewed,ci,ci
+1960-06-20T02:01:14.000Z,-38.154,-72.917,25,7,mw,,,,,iscgem,iscgem879577,2015-05-13T18:52:54.000Z,"Araucania, Chile",earthquake,,,,,automatic,iscgem,iscgem
+1960-06-20T12:59:46.000Z,-39.071,-72.813,25,6.9,mw,,,,,iscgem,iscgem879581,2015-05-13T18:52:54.000Z,"Araucania, Chile",earthquake,,,,,automatic,iscgem,iscgem
+1960-06-21T08:34:41.000Z,-4.627,-105.531,15,5.8,mw,,,,,iscgem,iscgem879590,2015-05-13T18:52:54.000Z,"central East Pacific Rise",earthquake,,,,,automatic,iscgem,iscgem
+1960-06-21T21:33:51.000Z,-60.587,-20.847,15,5.8,mw,,,,,iscgem,iscgem879596,2015-05-13T18:52:54.000Z,"east of the South Sandwich Islands",earthquake,,,,,automatic,iscgem,iscgem
+1960-06-22T21:42:27.320Z,35.2758333,-118.5316667,6,2.68,ml,4,337,0.933,0.67,ci,ci3350645,2016-01-28T19:52:07.890Z,"18km NNW of Tehachapi, CA",earthquake,9.05,31.61,0.107,6,reviewed,ci,ci
+1960-06-23T18:36:11.080Z,33.6998333,-116.744,6.53,2.76,ml,6,149,0.3593,0.19,ci,ci3350646,2016-01-28T19:43:25.040Z,"5km SSW of Idyllwild, CA",earthquake,0.62,2.72,0.067,5,reviewed,ci,ci
+1960-06-24T00:39:57.950Z,33.8681667,-117.0476667,18.7,2.96,ml,6,228,0.2998,0.32,ci,ci3350647,2016-01-28T19:56:24.320Z,"9km SW of Beaumont, CA",earthquake,2.45,1.98,0.127,5,reviewed,ci,ci
+1960-06-24T14:38:03.740Z,35.3461667,-118.5358333,6,2.9,ml,5,148,0.897,0.5,ci,ci3350649,2016-01-28T20:00:43.890Z,"25km NNW of Tehachapi, CA",earthquake,1.94,31.61,0.082,8,reviewed,ci,ci
+1960-06-25T02:02:43.000Z,-30.202,-177.572,35,5.7,mw,,,,,iscgem,iscgem879621,2015-05-13T18:52:54.000Z,"Kermadec Islands, New Zealand",earthquake,,,,,automatic,iscgem,iscgem
+1960-06-25T14:41:55.000Z,-30.074,-177.724,35,6.4,mw,,,,,iscgem,iscgem879627,2015-05-13T18:52:54.000Z,"Kermadec Islands, New Zealand",earthquake,,,,,automatic,iscgem,iscgem
+1960-06-27T02:52:01.810Z,34.0081667,-118.842,6,2.99,ml,9,100,0.4671,0.55,ci,ci3350650,2016-01-28T19:52:08.390Z,"3km W of Malibu, CA",earthquake,1.37,31.61,0.303,6,reviewed,ci,ci
+1960-06-27T16:50:25.000Z,-32.461,-177.733,15,6,mw,,,,,iscgemsup,iscgemsup879646,2015-07-13T17:02:23.000Z,"south of the Kermadec Islands",earthquake,,,,,automatic,iscgem,iscgem
+1960-06-27T21:33:50.680Z,34.0716667,-117.5215,2.24,2.64,ml,7,127,0.1442,0.33,ci,ci3350651,2016-01-28T19:56:24.840Z,"6km WSW of Fontana, CA",earthquake,1.02,1.2,0.206,3,reviewed,ci,ci
+1960-06-28T12:11:17.970Z,30.7763333,-117.9928333,6,3.5,mh,3,339,2.206,0.33,ci,ci10086530,2016-01-28T19:56:25.330Z,"171km SW of Maneadero, B.C., MX",earthquake,8.38,31.61,,0,reviewed,ci,ci
+1960-06-28T17:47:53.260Z,34.9715,-116.8971667,6,3.03,ml,6,211,1.018,0.52,ci,ci3350652,2016-01-28T20:00:44.390Z,"14km NE of Barstow, CA",earthquake,2.53,31.61,0.087,6,reviewed,ci,ci
+1960-06-28T20:00:48.510Z,34.1263333,-117.4773333,1.32,4.09,ml,11,107,0.1572,0.61,ci,ci3350653,2016-01-28T19:52:08.960Z,"4km NNW of Fontana, CA",earthquake,2.09,2.68,0.103,8,reviewed,ci,ci
+1960-06-28T20:34:42.130Z,34.1103333,-117.4661667,5.07,2.26,ml,6,149,0.1388,0.33,ci,ci3350654,2016-01-28T19:43:25.490Z,"2km NNW of Fontana, CA",earthquake,1.18,1.2,0.103,4,reviewed,ci,ci
+1960-06-29T01:57:19.000Z,-42.904,-73.836,25,6.1,mw,,,,,iscgem,iscgem879663,2015-05-13T18:52:54.000Z,"Isla Chiloe, Los Lagos, Chile",earthquake,,,,,automatic,iscgem,iscgem
+1960-06-29T04:29:19.000Z,-30.215,-177.363,35,5.9,mw,,,,,iscgem,iscgem879664,2015-05-13T18:52:54.000Z,"Kermadec Islands, New Zealand",earthquake,,,,,automatic,iscgem,iscgem
+1960-06-29T11:33:50.370Z,34.1363333,-117.4561667,0.38,2.35,ml,8,108,0.1574,0.57,ci,ci3350655,2016-01-28T19:30:40.350Z,"4km N of Fontana, CA",earthquake,1.56,2.83,0.023,4,reviewed,ci,ci
+1960-06-30T21:16:52.380Z,34.0845,-117.4805,8.84,2.66,mh,7,139,0.1259,0.38,ci,ci3350656,2016-01-28T19:34:54.750Z,"2km SW of Fontana, CA",earthquake,2.24,1.87,0.269,10,reviewed,ci,ci
+1960-07-01T03:25:49.690Z,35.3008333,-118.86,6,2.5,mh,2,238,0.4296,0.17,ci,ci10086534,2016-01-28T19:56:25.840Z,"7km NE of Lamont, CA",earthquake,5.92,31.61,,0,reviewed,ci,ci
+1960-07-01T07:59:02.000Z,55.88,165.04,25,5.6,mw,,,,,iscgem,iscgem879682,2015-05-13T18:52:54.000Z,"Komandorskiye Ostrova, Russia region",earthquake,,,,,automatic,iscgem,iscgem
+1960-07-01T09:31:11.930Z,32.1628333,-115.9893333,6,3.77,ml,5,341,0.7349,0.34,ci,ci3350657,2016-01-28T19:36:05.700Z,"60km SW of Progreso, B.C., MX",earthquake,4.5,31.61,0.184,5,reviewed,ci,ci
+1960-07-01T22:13:45.630Z,35.1405,-117.0495,6,4.44,ml,12,198,0.8087,0.47,ci,ci3350658,2016-04-02T06:36:13.141Z,"27km N of Barstow, CA",earthquake,2.54,31.61,0.172,9,reviewed,ci,ci
+1960-07-02T08:58:08.000Z,-45.981,-74.465,15,5.6,mw,,,,,iscgem,iscgem879692,2015-05-13T18:52:54.000Z,"near the coast of Aisen, Chile",earthquake,,,,,automatic,iscgem,iscgem
+1960-07-02T11:55:50.000Z,-56.053,-27.757,80,5.8,mw,,,,,iscgem,iscgem879694,2015-05-13T18:52:54.000Z,"South Sandwich Islands region",earthquake,,,,,automatic,iscgem,iscgem
+1960-07-03T12:21:39.250Z,31.656,-115.9901667,6,3.9,mh,3,354,1.173,0.38,ci,ci10086538,2016-01-28T19:39:02.140Z,"55km E of Maneadero, B.C., MX",earthquake,15.32,31.61,,0,reviewed,ci,ci
+1960-07-03T20:20:50.000Z,50.191,-177.023,15,6.1,mw,,,,,iscgem,iscgem879701,2015-05-13T18:52:54.000Z,"Andreanof Islands, Aleutian Islands, Alaska",earthquake,,,,,automatic,iscgem,iscgem
+1960-07-04T04:28:39.000Z,51.742,-131.39,15,6.5,mw,,,,,iscgem,iscgem879706,2015-05-13T18:52:54.000Z,"Haida Gwaii Region, Canada",earthquake,,,,,automatic,iscgem,iscgem
+1960-07-04T13:10:10.000Z,51.554,-131.27,15,5.8,mw,,,,,iscgem,iscgem879713,2015-05-13T18:52:54.000Z,"Haida Gwaii Region, Canada",earthquake,,,,,automatic,iscgem,iscgem
+1960-07-05T05:45:30.000Z,-38.534,-73.555,20,5.8,mw,,,,,iscgem,iscgem879719,2015-05-13T18:52:54.000Z,"offshore Araucania, Chile",earthquake,,,,,automatic,iscgem,iscgem
+1960-07-08T03:35:45.620Z,33.72,-117.9033333,6,3.23,ml,7,163,0.3916,0.32,ci,ci3350661,2016-01-28T19:43:26.500Z,"3km SW of Santa Ana, CA",earthquake,1.4,31.61,0.29,8,reviewed,ci,ci
+1960-07-08T12:51:27.000Z,30.484,130.668,60,5.5,mw,,,,,iscgem,iscgem879741,2015-05-13T18:52:54.000Z,"Kyushu, Japan",earthquake,,,,,automatic,iscgem,iscgem
+1960-07-09T00:42:34.000Z,25.701,125.436,15,5.8,mw,,,,,iscgem,iscgem879748,2015-05-13T18:52:54.000Z,"southwestern Ryukyu Islands, Japan",earthquake,,,,,automatic,iscgem,iscgem
+1960-07-10T00:05:26.000Z,0.404,98.098,30,6.3,mw,,,,,iscgem,iscgem879758,2015-05-13T18:52:54.000Z,"Nias region, Indonesia",earthquake,,,,,automatic,iscgem,iscgem
+1960-07-11T05:11:39.520Z,33.8016667,-118.2008333,0.6,2.13,mh,6,133,0.1506,0.61,ci,ci3350663,2016-01-28T19:34:55.240Z,"3km W of Signal Hill, CA",earthquake,1.56,3.65,0.32,13,reviewed,ci,ci
+1960-07-11T11:55:15.000Z,-16.047,-171.753,25,5.8,mw,,,,,iscgem,iscgem879774,2015-05-13T18:52:54.000Z,"Samoa Islands region",earthquake,,,,,automatic,iscgem,iscgem
+1960-07-13T07:56:05.000Z,-54.43,1.519,10,6.2,mw,,,,,iscgem,iscgem879785,2015-05-13T18:52:54.000Z,"Bouvet Island region",earthquake,,,,,automatic,iscgem,iscgem
+1960-07-13T13:01:04.000Z,40.606,23.415,15,5.6,mw,,,,,iscgem,iscgem879788,2015-05-13T18:52:54.000Z,"Greece",earthquake,,,,,automatic,iscgem,iscgem
+1960-07-14T05:25:54.580Z,32.2613333,-115.2946667,6,4,mh,3,302,1.237,0.72,ci,ci12277823,2016-01-28T19:43:06.770Z,"12km WNW of Alberto Oviedo Mota, B.C., MX",earthquake,6.88,31.61,,0,reviewed,ci,ci
+1960-07-14T10:27:09.000Z,4.849,127.48,60,6,mw,,,,,iscgem,iscgem879799,2015-05-13T18:52:54.000Z,"Kepulauan Talaud, Indonesia",earthquake,,,,,automatic,iscgem,iscgem
+1960-07-16T00:22:52.480Z,34.164,-117.9356667,0.01,1.86,ml,5,157,0.1178,0.62,ci,ci3350667,2016-01-28T19:47:40.220Z,"4km ENE of Bradbury, CA",earthquake,3.25,9.17,0.123,4,reviewed,ci,ci
+1960-07-17T05:14:43.000Z,36.853,69.934,15,5.7,mw,,,,,iscgem,iscgem879823,2015-05-13T18:52:54.000Z,"Hindu Kush region, Afghanistan",earthquake,,,,,automatic,iscgem,iscgem
+1960-07-18T01:43:17.000Z,-4.924,152.431,35,6,mw,,,,,iscgem,iscgem879830,2015-05-13T18:52:54.000Z,"New Britain region, Papua New Guinea",earthquake,,,,,automatic,iscgem,iscgem
+1960-07-20T09:30:43.000Z,48.847,157.625,27.4,5.9,mw,,,,,iscgem,iscgem879855,2015-05-13T18:52:54.000Z,"east of the Kuril Islands",earthquake,,,,,automatic,iscgem,iscgem
+1960-07-20T10:24:59.670Z,34.1636667,-117.5438333,6,2.84,ml,3,210,0.5204,0.54,ci,ci3350669,2016-01-28T19:39:02.660Z,"6km NE of Rancho Cucamonga, CA",earthquake,4.24,31.61,0.189,3,reviewed,ci,ci
+1960-07-20T20:59:17.000Z,-20.1,170.124,65,6,mw,,,,,iscgem,iscgem879858,2015-05-13T18:52:54.000Z,"Vanuatu",earthquake,,,,,automatic,iscgem,iscgem
+1960-07-21T02:03:05.410Z,34.1041667,-117.796,3.63,2.86,ml,8,133,0.248,0.47,ci,ci3350670,2016-01-28T19:34:55.740Z,"1km ESE of San Dimas, CA",earthquake,1.87,2.94,0.397,6,reviewed,ci,ci
+1960-07-24T09:48:59.000Z,56.231,164.163,15,5.8,mw,,,,,iscgem,iscgem879892,2015-05-13T18:52:54.000Z,"Komandorskiye Ostrova, Russia region",earthquake,,,,,automatic,iscgem,iscgem
+1960-07-25T03:41:11.000Z,55.626,162.972,20,6.5,mw,,,,,iscgem,iscgem879899,2015-05-13T18:52:54.000Z,"near the east coast of the Kamchatka Peninsula, Russia",earthquake,,,,,automatic,iscgem,iscgem
+1960-07-27T10:04:57.000Z,-44.735,-76.121,20,6.1,mw,,,,,iscgem,iscgem879912,2015-05-13T18:52:54.000Z,"off the coast of Aisen, Chile",earthquake,,,,,automatic,iscgem,iscgem
+1960-07-29T00:24:12.000Z,-19.769,170.079,15,6,mw,,,,,iscgem,iscgem879925,2015-05-13T18:52:54.000Z,"Vanuatu",earthquake,,,,,automatic,iscgem,iscgem
+1960-07-29T10:42:47.000Z,26.488,90.297,15,5.6,mw,,,,,iscgem,iscgem879928,2015-05-13T18:52:54.000Z,"Assam, India",earthquake,,,,,automatic,iscgem,iscgem
+1960-07-29T14:33:44.000Z,31.906,67.379,15,5.7,mw,,,,,iscgem,iscgem879930,2015-05-13T18:52:54.000Z,"central Afghanistan",earthquake,,,,,automatic,iscgem,iscgem
+1960-07-29T17:31:44.000Z,40.341,142.335,53.4,6.8,mw,,,,,iscgem,iscgem879935,2015-05-13T18:52:54.000Z,"near the east coast of Honshu, Japan",earthquake,,,,,automatic,iscgem,iscgem
+1960-07-30T02:02:26.430Z,35.3583333,-118.4875,6,2.91,ml,7,143,0.304,0.41,ci,ci3350671,2016-01-28T20:00:44.880Z,"25km N of Tehachapi, CA",earthquake,1.58,31.61,0.109,9,reviewed,ci,ci
+1960-07-31T02:55:47.000Z,-6.19,150.032,25,6.7,mw,,,,,iscgem,iscgem879944,2015-05-13T18:52:54.000Z,"New Britain region, Papua New Guinea",earthquake,,,,,automatic,iscgem,iscgem
+1960-07-31T07:04:35.000Z,-5.998,150.139,35,5.9,mw,,,,,iscgem,iscgem879946,2015-05-13T18:52:54.000Z,"New Britain region, Papua New Guinea",earthquake,,,,,automatic,iscgem,iscgem
+1960-07-31T14:54:58.000Z,-44.047,-75.769,20,5.8,mw,,,,,iscgem,iscgem879949,2015-05-13T18:52:54.000Z,"off the coast of Aisen, Chile",earthquake,,,,,automatic,iscgem,iscgem
+1960-08-01T02:20:46.000Z,28.074,54.363,15,5.7,mw,,,,,iscgem,iscgem879954,2015-05-13T18:52:54.000Z,"southern Iran",earthquake,,,,,automatic,iscgem,iscgem
+1960-08-01T02:55:16.310Z,34.2796667,-119.1003333,6,3.36,ml,8,158,0.5332,0.36,ci,ci3350673,2016-01-28T19:39:03.160Z,"9km NW of Camarillo, CA",earthquake,1.19,31.61,0.088,10,reviewed,ci,ci
+1960-08-01T19:39:30.330Z,33.1326667,-116.4793333,6,4.31,ml,9,97,0.4796,0.51,ci,ci3350674,2016-01-28T19:31:48.670Z,"13km ENE of Julian, CA",earthquake,1.21,31.61,0.046,10,reviewed,ci,ci
+1960-08-01T22:56:01.230Z,34.983,-119.0551667,9.38,2.97,ml,7,92,0.1691,0.27,ci,ci3350675,2016-01-28T19:34:56.200Z,"12km WNW of Grapevine, CA",earthquake,0.69,2.42,0.108,6,reviewed,ci,ci
+1960-08-02T09:30:26.000Z,-28.607,-176.771,25,5.8,mw,,,,,iscgem,iscgem879971,2015-05-13T18:52:54.000Z,"Kermadec Islands region",earthquake,,,,,automatic,iscgem,iscgem
+1960-08-03T19:43:26.230Z,33.1126667,-116.3946667,6,3.46,ml,5,163,0.4905,0.58,ci,ci3350676,2016-01-28T19:52:09.490Z,"16km S of Borrego Springs, CA",earthquake,1.82,31.61,0.092,6,reviewed,ci,ci
+1960-08-04T07:34:51.000Z,51.363,178.883,18.6,6.5,mw,,,,,iscgem,iscgem879987,2015-05-13T18:52:54.000Z,"Rat Islands, Aleutian Islands, Alaska",earthquake,,,,,automatic,iscgem,iscgem
+1960-08-05T22:27:36.000Z,50.917,179.092,15,5.7,mw,,,,,iscgem,iscgem879999,2015-05-13T18:52:54.000Z,"Rat Islands, Aleutian Islands, Alaska",earthquake,,,,,automatic,iscgem,iscgem
+1960-08-06T14:36:41.830Z,33.118,-116.4035,6,3.24,ml,6,161,0.4918,0.56,ci,ci3350677,2016-01-28T20:00:45.380Z,"16km S of Borrego Springs, CA",earthquake,1.58,31.61,0.261,5,reviewed,ci,ci
+1960-08-09T02:26:35.850Z,35.2978333,-118.5251667,6,3.91,ml,12,93,0.3665,0.68,ci,ci3350678,2016-01-28T19:43:26.990Z,"20km NNW of Tehachapi, CA",earthquake,2.13,31.61,0.102,9,reviewed,ci,ci
+1960-08-09T07:39:26.000Z,40.283,-126.824,10,6.2,mw,,,,,iscgem,iscgem880030,2015-05-13T18:52:54.000Z,"off the coast of Northern California",earthquake,,,,,automatic,iscgem,iscgem
+1960-08-09T16:46:31.000Z,-24.506,-177.008,75,6.2,mw,,,,,iscgem,iscgem880032,2015-05-13T18:52:54.000Z,"south of the Fiji Islands",earthquake,,,,,automatic,iscgem,iscgem
+1960-08-09T23:36:51.000Z,-11.562,166.233,35,5.6,mw,,,,,iscgem,iscgem880034,2015-05-13T18:52:55.000Z,"Santa Cruz Islands",earthquake,,,,,automatic,iscgem,iscgem
+1960-08-10T19:12:04.130Z,31.6681667,-115.767,6,3.6,mh,5,320,1.268,0.61,ci,ci10086542,2016-01-28T19:56:26.340Z,"76km E of Maneadero, B.C., MX",earthquake,12.57,31.61,,0,reviewed,ci,ci
+1960-08-10T19:19:42.300Z,32.196,-114.9975,6,3.7,mh,4,309,1.496,0.99,ci,ci10086546,2016-01-28T19:47:40.740Z,"0km ENE of Estacion Coahuila, B.C., MX",earthquake,10.53,31.61,,0,reviewed,ci,ci
+1960-08-10T19:29:28.990Z,31.9361667,-114.9148333,6,3.7,mh,4,315,1.663,1.75,ci,ci10086550,2016-01-28T19:34:56.710Z,"30km SSE of Estacion Coahuila, B.C., MX",earthquake,17.18,31.61,,0,reviewed,ci,ci
+1960-08-10T19:55:18.960Z,32.1915,-115.0368333,6,3.5,mh,4,308,1.466,1.61,ci,ci10086554,2016-01-28T19:43:27.480Z,"3km W of Estacion Coahuila, B.C., MX",earthquake,18.8,31.61,,0,reviewed,ci,ci
+1960-08-12T04:11:59.700Z,33.1158333,-116.3926667,6,3.58,ml,8,163,0.4598,0.65,ci,ci3350182,2016-01-28T19:30:40.840Z,"16km S of Borrego Springs, CA",earthquake,2.37,31.61,0.122,9,reviewed,ci,ci
+1960-08-12T13:12:32.000Z,36.377,141.58,30,5.7,mw,,,,,iscgem,iscgem880057,2015-05-13T18:52:55.000Z,"near the east coast of Honshu, Japan",earthquake,,,,,automatic,iscgem,iscgem
+1960-08-13T07:11:07.000Z,40.363,142.462,52.9,5.8,mw,,,,,iscgem,iscgem880061,2015-05-13T18:52:55.000Z,"near the east coast of Honshu, Japan",earthquake,,,,,automatic,iscgem,iscgem
+1960-08-13T14:14:56.000Z,-39.964,-74.783,25,6.7,mw,,,,,iscgem,iscgem880062,2015-05-13T18:52:55.000Z,"offshore Los Lagos, Chile",earthquake,,,,,automatic,iscgem,iscgem
+1960-08-15T06:59:00.000Z,-13.641,66.044,15,5.7,mw,,,,,iscgem,iscgem880074,2015-05-13T18:52:55.000Z,"Mid-Indian Ridge",earthquake,,,,,automatic,iscgem,iscgem
+1960-08-16T19:50:33.610Z,35.032,-118.945,0.44,3.3,ml,12,74,0.1643,0.72,ci,ci3350203,2016-01-28T19:47:41.220Z,"10km N of Grapevine, CA",earthquake,1.52,4.2,0.175,12,reviewed,ci,ci
+1960-08-17T09:05:48.780Z,36.1558333,-118.0586667,2.69,3.01,ml,7,137,0.09197,0.6,ci,ci3350205,2016-01-28T19:43:27.940Z,"15km SSW of Olancha, CA",earthquake,1.4,3.01,0.134,6,reviewed,ci,ci
+1960-08-17T11:24:08.000Z,-19.802,-11.831,15,5.7,mw,,,,,iscgem,iscgem880086,2015-05-13T18:52:55.000Z,"southern Mid-Atlantic Ridge",earthquake,,,,,automatic,iscgem,iscgem
+1960-08-20T20:08:38.000Z,-35.432,-15.831,15,6.2,mw,,,,,iscgem,iscgem880114,2015-05-13T18:52:55.000Z,"Tristan da Cunha region",earthquake,,,,,automatic,iscgem,iscgem
+1960-08-20T23:27:44.630Z,33.6866667,-118.369,1.05,3.84,ml,10,122,0.06557,0.57,ci,ci3350207,2016-01-28T20:00:45.870Z,"7km SSE of Rancho Palos Verdes, CA",earthquake,1.69,3.22,0.091,10,reviewed,ci,ci
+1960-08-21T10:00:54.370Z,35.2361667,-118.5435,6,2.87,ml,5,114,0.4294,0.48,ci,ci3350208,2016-01-28T19:56:26.820Z,"14km NW of Tehachapi, CA",earthquake,1.57,31.61,0.106,7,reviewed,ci,ci
+1960-08-21T21:27:33.260Z,32.0493333,-116.2248333,6,4,mh,5,307,0.734,0.21,ci,ci10086558,2016-01-28T19:47:41.740Z,"42km ENE of Ensenada, B.C., MX",earthquake,4.68,31.61,,0,reviewed,ci,ci
+1960-08-21T23:07:03.610Z,34.1558333,-117.4346667,1.02,3.84,ml,13,110,0.1692,0.47,ci,ci3350209,2016-01-28T19:56:27.320Z,"7km NNE of Fontana, CA",earthquake,1.03,1.94,0.068,10,reviewed,ci,ci
+1960-08-23T08:58:08.000Z,29.057,60.02,25,5.8,mw,,,,,iscgem,iscgem880138,2015-05-13T18:52:55.000Z,"southeastern Iran",earthquake,,,,,automatic,iscgem,iscgem
+1960-08-23T14:08:17.000Z,0.649,-25.943,15,5.7,mw,,,,,iscgem,iscgem880141,2015-05-13T18:52:55.000Z,"central Mid-Atlantic Ridge",earthquake,,,,,automatic,iscgem,iscgem
+1960-08-23T22:44:54.000Z,-14.679,-175.891,30,6.1,mw,,,,,iscgem,iscgem880143,2015-05-13T18:52:55.000Z,"Samoa Islands region",earthquake,,,,,automatic,iscgem,iscgem
+1960-08-24T01:44:13.000Z,56.21,163.836,15,6,mw,,,,,iscgem,iscgem880144,2015-05-13T18:52:55.000Z,"near the east coast of the Kamchatka Peninsula, Russia",earthquake,,,,,automatic,iscgem,iscgem
+1960-08-24T02:44:40.210Z,31.3273333,-116.1798333,6,4.4,mh,5,347,1.412,0.91,ci,ci10086562,2016-04-02T00:54:50.091Z,"57km SE of Maneadero, B.C., MX",earthquake,47.1,31.61,,0,reviewed,ci,ci
+1960-08-24T05:49:06.000Z,-19.257,-173.926,45,5.9,mw,,,,,iscgem,iscgem880146,2015-05-13T18:52:55.000Z,"Tonga",earthquake,,,,,automatic,iscgem,iscgem
+1960-08-25T17:42:00.000Z,52.411,-169.458,28.9,5.9,mw,,,,,iscgem,iscgem880159,2015-05-13T18:52:55.000Z,"Fox Islands, Aleutian Islands, Alaska",earthquake,,,,,automatic,iscgem,iscgem
+1960-09-01T07:34:40.000Z,-27.091,-176.484,35,5.6,mw,,,,,iscgem,iscgem880207,2015-05-13T18:52:55.000Z,"Kermadec Islands region",earthquake,,,,,automatic,iscgem,iscgem
+1960-09-01T07:35:06.120Z,34.0681667,-117.3008333,15.43,3.54,ml,11,111,0.09688,0.27,ci,ci3350635,2016-01-28T19:56:27.820Z,"1km ESE of Colton, CA",earthquake,0.81,0.67,0.114,10,reviewed,ci,ci
+1960-09-01T09:28:21.000Z,-16.523,167.606,30,6.1,mw,,,,,iscgem,iscgem880210,2015-05-13T18:52:55.000Z,"Vanuatu",earthquake,,,,,automatic,iscgem,iscgem
+1960-09-01T10:35:07.000Z,-16.512,167.69,30,6.1,mw,,,,,iscgem,iscgem880211,2015-05-13T18:52:55.000Z,"Vanuatu",earthquake,,,,,automatic,iscgem,iscgem
+1960-09-01T12:53:06.900Z,35.249,-118.6781667,6,2.91,ml,8,138,0.4184,0.6,ci,ci3350636,2016-01-28T19:34:57.680Z,"14km ENE of Arvin, CA",earthquake,1.84,31.61,0.044,9,reviewed,ci,ci
+1960-09-01T15:37:18.000Z,56.239,-153.671,21.8,6,mw,,,,,iscgem,iscgem880215,2015-05-13T18:52:55.000Z,"Kodiak Island region, Alaska",earthquake,,,,,automatic,iscgem,iscgem
+1960-09-01T18:41:14.000Z,-16.002,-179.052,15,5.7,mw,,,,,iscgem,iscgem880217,2015-05-13T18:52:55.000Z,"Fiji region",earthquake,,,,,automatic,iscgem,iscgem
+1960-09-01T20:01:59.000Z,-16.126,-178.859,15,5.7,mw,,,,,iscgem,iscgem880218,2015-05-13T18:52:55.000Z,"Fiji region",earthquake,,,,,automatic,iscgem,iscgem
+1960-09-01T22:39:54.470Z,33.7915,-116.1196667,6,3.91,ml,7,149,0.4093,0.64,ci,ci3350637,2016-01-28T20:00:46.370Z,"12km NE of Indio, CA",earthquake,2.43,31.61,0.121,10,reviewed,ci,ci
+1960-09-02T13:46:10.000Z,28.839,98.394,20,6,mw,,,,,iscgem,iscgem880223,2015-05-13T18:52:55.000Z,"Xizang-Yunnan border region",earthquake,,,,,automatic,iscgem,iscgem
+1960-09-02T22:02:51.000Z,52.121,-171.566,35,5.9,mw,,,,,iscgem,iscgem880229,2015-05-13T18:52:55.000Z,"Fox Islands, Aleutian Islands, Alaska",earthquake,,,,,automatic,iscgem,iscgem
+1960-09-03T12:41:35.000Z,-6.123,154.718,423.4,6.4,mw,,,,,iscgem,iscgem880236,2015-05-13T18:52:55.000Z,"Bougainville region, Papua New Guinea",earthquake,,,,,automatic,iscgem,iscgem
+1960-09-03T15:53:08.200Z,33.7545,-117.5373333,0,2.96,ml,9,126,0.2738,0.53,ci,ci3350638,2016-01-28T19:30:41.410Z,"11km NNE of Trabuco Canyon, CA",earthquake,1.24,2.48,0.149,4,reviewed,ci,ci
+1960-09-03T23:46:30.000Z,44.686,149.381,43.1,6.2,mw,,,,,iscgem,iscgem880246,2015-05-13T18:52:55.000Z,"Kuril Islands",earthquake,,,,,automatic,iscgem,iscgem
+1960-09-05T03:28:23.740Z,33.7603333,-116.1201667,6,3.67,ml,6,170,0.4045,0.52,ci,ci3350639,2016-01-28T19:47:42.230Z,"10km ENE of Indio, CA",earthquake,2.08,31.61,0.147,7,reviewed,ci,ci
+1960-09-05T11:14:47.100Z,35.3231667,-118.5616667,6,2.95,ml,7,101,0.3463,0.61,ci,ci3350640,2016-01-28T19:47:42.740Z,"24km NNW of Tehachapi, CA",earthquake,1.81,31.61,0.087,11,reviewed,ci,ci
+1960-09-07T01:17:40.000Z,-37.109,-15.686,15,5.8,mw,,,,,iscgem,iscgem880272,2015-05-13T18:52:55.000Z,"Tristan da Cunha region",earthquake,,,,,automatic,iscgem,iscgem
+1960-09-08T18:41:36.130Z,37.7056667,-118.4123333,6,4,mh,4,331,1.61,0.57,ci,ci10086566,2016-01-28T19:34:58.160Z,"36km N of Dixon Lane-Meadow Creek, CA",earthquake,7.17,31.61,,0,reviewed,ci,ci
+1960-09-09T12:28:09.120Z,31.6298333,-115.9611667,6,3.8,mh,5,320,1.208,0.92,ci,ci10086570,2016-01-28T19:56:28.360Z,"58km E of Maneadero, B.C., MX",earthquake,13.65,31.61,,0,reviewed,ci,ci
+1960-09-10T00:42:47.830Z,34.3176667,-117.9106667,5.22,1.98,mh,4,252,0.1541,0.51,ci,ci3350642,2016-01-28T19:30:41.900Z,"20km NNE of Bradbury, CA",earthquake,17.91,19.06,0.08,10,reviewed,ci,ci
+1960-09-12T12:17:13.000Z,27.504,128.539,45,5.8,mw,,,,,iscgem,iscgem880311,2015-05-13T18:52:55.000Z,"Ryukyu Islands, Japan",earthquake,,,,,automatic,iscgem,iscgem
+1960-09-14T00:34:28.000Z,16.79,122.293,35,5.6,mw,,,,,iscgem,iscgem880323,2015-05-13T18:52:55.000Z,"Luzon, Philippines",earthquake,,,,,automatic,iscgem,iscgem
+1960-09-14T01:53:24.000Z,19.659,-70.334,15,5.8,mw,,,,,iscgem,iscgem880325,2015-05-13T18:52:55.000Z,"Dominican Republic",earthquake,,,,,automatic,iscgem,iscgem
+1960-09-14T04:57:13.000Z,-35.304,-106.133,15,5.9,mw,,,,,iscgem,iscgem880327,2015-05-13T18:52:55.000Z,"southern East Pacific Rise",earthquake,,,,,automatic,iscgem,iscgem
+1960-09-14T23:18:41.000Z,-20.878,-174.408,25,5.7,mw,,,,,iscgem,iscgem880334,2015-05-13T18:52:55.000Z,"Tonga",earthquake,,,,,automatic,iscgem,iscgem
+1960-09-17T07:52:57.000Z,49.386,155.592,60,5.7,mw,,,,,iscgem,iscgem880345,2015-05-13T18:52:55.000Z,"Kuril Islands",earthquake,,,,,automatic,iscgem,iscgem
+1960-09-17T08:05:37.000Z,49.323,155.537,60,6,mw,,,,,iscgem,iscgem880346,2015-05-13T18:52:55.000Z,"Kuril Islands",earthquake,,,,,automatic,iscgem,iscgem
+1960-09-17T19:56:13.000Z,-20.895,-174.577,20,5.9,mw,,,,,iscgem,iscgem880350,2015-05-13T18:52:55.000Z,"Tonga",earthquake,,,,,automatic,iscgem,iscgem
+1960-09-19T03:39:39.000Z,15.724,119.709,35,5.9,mw,,,,,iscgem,iscgem880356,2015-05-13T18:52:55.000Z,"Luzon, Philippines",earthquake,,,,,automatic,iscgem,iscgem
+1960-09-19T19:01:24.000Z,6.838,-77.542,15,6.3,mw,,,,,iscgem,iscgem880362,2015-05-13T18:52:55.000Z,"near the west coast of Colombia",earthquake,,,,,automatic,iscgem,iscgem
+1960-09-22T05:38:14.000Z,-3.672,29.146,15,5.9,mw,,,,,iscgem,iscgem880378,2015-05-13T18:52:55.000Z,"Burundi region",earthquake,,,,,automatic,iscgem,iscgem
+1960-09-22T09:05:38.000Z,-3.536,29.031,13.7,6.5,mw,,,,,iscgem,iscgem880379,2015-05-13T18:52:55.000Z,"Burundi region",earthquake,,,,,automatic,iscgem,iscgem
+1960-09-22T09:14:59.000Z,-3.25,29.16,15,6.3,mw,,,,,iscgem,iscgem880380,2015-05-13T18:52:55.000Z,"Burundi region",earthquake,,,,,automatic,iscgem,iscgem
+1960-09-23T23:02:27.000Z,-22.255,-174.422,25,5.7,mw,,,,,iscgem,iscgem880392,2015-05-13T18:52:55.000Z,"Tonga region",earthquake,,,,,automatic,iscgem,iscgem
+1960-09-28T05:29:36.000Z,32.441,95.857,15,5.6,mw,,,,,iscgem,iscgem880423,2015-05-13T18:52:55.000Z,"southern Qinghai, China",earthquake,,,,,automatic,iscgem,iscgem
+1960-09-28T06:26:23.410Z,31.6235,-116.4035,6,3.9,mh,3,331,1.078,0.43,ci,ci10086574,2016-01-28T19:52:09.980Z,"19km SE of Maneadero, B.C., MX",earthquake,4.62,31.61,,0,reviewed,ci,ci
+1960-09-28T10:09:10.520Z,34.0268333,-116.6945,6,3.04,ml,11,131,0.5666,0.55,ci,ci3350643,2016-01-28T20:00:46.860Z,"11km WSW of Morongo Valley, CA",earthquake,1.58,31.61,0.147,5,reviewed,ci,ci
+1960-09-28T22:37:12.340Z,33.9916667,-118.31,0.19,2.22,mh,4,305,0.1943,0.59,ci,ci3350644,2016-01-28T19:34:58.630Z,"4km E of View Park-Windsor Hills, CA",earthquake,17.96,13.23,0.165,9,reviewed,ci,ci
+1960-09-29T11:18:55.000Z,19.316,144.888,419.5,6.6,mw,,,,,iscgem,iscgem880433,2015-05-13T18:52:55.000Z,"Maug Islands region, Northern Mariana Islands",earthquake,,,,,automatic,iscgem,iscgem
+1960-09-30T06:35:11.000Z,49.445,-129.522,15,5.6,mw,,,,,iscgem,iscgem880439,2015-05-13T18:52:55.000Z,"Vancouver Island, Canada region",earthquake,,,,,automatic,iscgem,iscgem
+1960-10-01T16:11:00.000Z,51.721,-172.472,35,6,mw,,,,,iscgem,iscgem880450,2015-05-13T18:52:55.000Z,"Andreanof Islands, Aleutian Islands, Alaska",earthquake,,,,,automatic,iscgem,iscgem
+1960-10-02T11:53:41.000Z,-38.874,-91.537,15,6,mw,,,,,iscgem,iscgem880456,2015-05-13T18:52:55.000Z,"West Chile Rise",earthquake,,,,,automatic,iscgem,iscgem
+1960-10-03T04:38:56.580Z,31.5655,-116.2538333,6,3.9,mh,3,346,1.167,0.42,ci,ci10086578,2016-01-28T19:30:42.420Z,"34km ESE of Maneadero, B.C., MX",earthquake,28.51,31.61,,0,reviewed,ci,ci
+1960-10-03T19:50:49.000Z,-5.714,103.069,30,5.8,mw,,,,,iscgem,iscgem880467,2015-05-13T18:52:55.000Z,"southern Sumatra, Indonesia",earthquake,,,,,automatic,iscgem,iscgem
+1960-10-04T09:22:17.390Z,34.1445,-117.387,3.75,2.58,ml,9,155,0.1509,0.61,ci,ci3349304,2016-01-28T19:34:59.120Z,"4km WSW of Muscoy, CA",earthquake,1.53,2.28,0.122,5,reviewed,ci,ci
+1960-10-04T09:51:08.000Z,-7.216,155.449,35,5.9,mw,,,,,iscgem,iscgem880473,2015-05-13T18:52:55.000Z,"Solomon Islands",earthquake,,,,,automatic,iscgem,iscgem
+1960-10-05T08:04:50.310Z,35.4205,-118.7391667,0.47,3.1,ml,9,79,0.2917,0.8,ci,ci3349306,2016-01-28T19:30:42.970Z,"24km NE of Lamont, CA",earthquake,2.58,5.79,0.119,10,reviewed,ci,ci
+1960-10-05T13:09:25.710Z,34.1588333,-117.4103333,5.37,2.4,ml,7,209,0.1674,0.37,ci,ci3349307,2016-01-28T19:39:03.730Z,"6km W of Muscoy, CA",earthquake,1.71,2.7,0.146,3,reviewed,ci,ci
+1960-10-06T16:19:14.000Z,52.871,107.925,15,5.7,mw,,,,,iscgem,iscgem880479,2015-05-13T18:52:55.000Z,"Lake Baykal region, Russia",earthquake,,,,,automatic,iscgem,iscgem
+1960-10-06T19:55:42.000Z,58.406,-32.113,15,5.7,mw,,,,,iscgem,iscgem880482,2015-05-13T18:52:55.000Z,"Reykjanes Ridge",earthquake,,,,,automatic,iscgem,iscgem
+1960-10-07T03:15:33.000Z,58.201,-32.063,15,5.6,mw,,,,,iscgem,iscgem880485,2015-05-13T18:52:55.000Z,"Reykjanes Ridge",earthquake,,,,,automatic,iscgem,iscgem
+1960-10-07T15:18:33.000Z,-7.508,130.761,35,6.7,mw,,,,,iscgem,iscgem880488,2015-05-13T18:52:55.000Z,"Kepulauan Tanimbar, Indonesia",earthquake,,,,,automatic,iscgem,iscgem
+1960-10-08T05:53:06.000Z,40.09,129.89,607.5,6.8,mw,,,,,iscgem,iscgem880492,2015-05-13T18:52:55.000Z,"North Korea",earthquake,,,,,automatic,iscgem,iscgem
+1960-10-08T12:47:05.310Z,34.9411667,-116.5143333,6,3.12,ml,5,236,1.183,0.61,ci,ci3349308,2016-01-28T19:43:28.430Z,"39km SSE of Fort Irwin, CA",earthquake,4.88,31.61,0.095,9,reviewed,ci,ci
+1960-10-08T16:25:09.540Z,35.074,-119.0631667,0.19,3.01,ml,7,154,0.2423,0.48,ci,ci3349309,2016-01-28T19:34:59.620Z,"19km NW of Grapevine, CA",earthquake,1.26,2.93,0.037,8,reviewed,ci,ci
+1960-10-08T20:40:09.000Z,8.016,93.111,61,5.9,mw,,,,,iscgem,iscgem880495,2015-05-13T18:52:55.000Z,"Nicobar Islands, India region",earthquake,,,,,automatic,iscgem,iscgem
+1960-10-09T06:32:15.230Z,35.0486667,-119.2491667,6,3.43,ml,9,249,0.3367,0.45,ci,ci3349768,2016-01-28T19:56:28.890Z,"14km E of Maricopa, CA",earthquake,3.28,31.61,0.129,9,reviewed,ci,ci
+1960-10-13T14:52:39.000Z,54.698,161.442,36.2,6.4,mw,,,,,iscgem,iscgem880524,2015-05-13T18:52:55.000Z,"near the east coast of the Kamchatka Peninsula, Russia",earthquake,,,,,automatic,iscgem,iscgem
+1960-10-14T17:48:32.000Z,-38.323,-73.068,25,5.8,mw,,,,,iscgem,iscgem880534,2015-05-13T18:52:55.000Z,"Araucania, Chile",earthquake,,,,,automatic,iscgem,iscgem
+1960-10-14T21:02:52.490Z,35.053,-118.9048333,9.5,3.41,ml,10,75,0.1811,0.58,ci,ci3349311,2016-01-28T20:00:47.350Z,"12km N of Grapevine, CA",earthquake,1.33,3.93,0.131,9,reviewed,ci,ci
+1960-10-14T21:19:14.000Z,51.753,-172.247,35.7,6.5,mw,,,,,iscgem,iscgem880535,2015-05-13T18:52:55.000Z,"Andreanof Islands, Aleutian Islands, Alaska",earthquake,,,,,automatic,iscgem,iscgem
+1960-10-14T22:55:42.000Z,55.441,-35.263,20,5.7,mw,,,,,iscgem,iscgem880536,2015-05-13T18:52:55.000Z,"Reykjanes Ridge",earthquake,,,,,automatic,iscgem,iscgem
+1960-10-15T04:30:40.980Z,34.18,-117.4496667,3.53,2.62,ml,8,153,0.196,0.58,ci,ci3349312,2016-01-28T20:00:47.850Z,"6km SW of Devore, CA",earthquake,1.7,2.28,0.03,5,reviewed,ci,ci
+1960-10-16T23:06:01.200Z,35.5945,-117.5138333,0.01,3.17,ml,8,183,0.231,0.77,ci,ci3349313,2016-01-28T20:00:48.340Z,"15km ESE of Ridgecrest, CA",earthquake,2.7,4.28,0.089,12,reviewed,ci,ci
+1960-10-17T22:15:28.000Z,14.57,-92.613,35,5.7,mw,,,,,iscgem,iscgem880565,2015-05-13T18:52:55.000Z,"offshore Chiapas, Mexico",earthquake,,,,,automatic,iscgem,iscgem
+1960-10-18T12:17:09.220Z,35.6131667,-119.2751667,6,3.2,ml,8,192,0.3615,0.57,ci,ci3349316,2016-01-28T19:30:43.500Z,"6km ENE of Wasco, CA",earthquake,2.39,31.61,0.068,10,reviewed,ci,ci
+1960-10-18T16:37:47.420Z,35.64,-119.3013333,6,3.26,ml,8,161,0.377,0.56,ci,ci3349317,2016-01-28T19:35:00.120Z,"6km NE of Wasco, CA",earthquake,2.1,31.61,0.2,9,reviewed,ci,ci
+1960-10-20T11:05:58.000Z,-10.989,164.873,15,6,mw,,,,,iscgem,iscgem880585,2015-05-13T18:52:55.000Z,"Santa Cruz Islands region",earthquake,,,,,automatic,iscgem,iscgem
+1960-10-21T00:11:45.540Z,35.0728333,-118.9436667,0.01,3.11,ml,8,141,0.204,0.82,ci,ci3349318,2016-01-28T19:47:43.260Z,"14km N of Grapevine, CA",earthquake,2.31,4.73,0.055,9,reviewed,ci,ci
+1960-10-22T08:22:01.000Z,-10.257,161.197,65,6.3,mw,,,,,iscgem,iscgem880595,2015-05-13T18:52:55.000Z,"Solomon Islands",earthquake,,,,,automatic,iscgem,iscgem
+1960-10-25T16:22:43.500Z,35.1005,-118.2735,0.01,2.43,ml,6,108,0.563,0.64,ci,ci3349319,2016-04-02T07:20:15.873Z,"10km WNW of Mojave, CA",quarry blast,2.02,31.61,0.088,5,reviewed,ci,ci
+1960-10-28T02:00:41.690Z,33.6201667,-117.9955,6,2.59,ml,5,213,0.5468,0.4,ci,ci3349320,2016-01-28T19:52:10.470Z,"6km W of Newport Beach, CA",earthquake,2,31.61,0.091,5,reviewed,ci,ci
+1960-10-28T04:18:44.000Z,71.292,-9.134,15,5.9,mw,,,,,iscgem,iscgem880638,2015-05-13T18:52:55.000Z,"Jan Mayen Island region",earthquake,,,,,automatic,iscgem,iscgem
+1960-10-28T19:22:06.340Z,33.6555,-117.9631667,6,2.59,ml,5,210,0.5212,0.22,ci,ci3349321,2016-01-28T19:47:43.760Z,"5km WSW of Costa Mesa, CA",earthquake,1.19,31.61,0.03,5,reviewed,ci,ci
+1960-10-28T22:29:25.000Z,34.947,141.419,25,6.1,mw,,,,,iscgem,iscgem880645,2015-05-13T18:52:55.000Z,"off the east coast of Honshu, Japan",earthquake,,,,,automatic,iscgem,iscgem
+1960-10-29T02:39:33.320Z,34.3018333,-116.345,6,3.06,ml,4,285,0.9082,0.19,ci,ci3349322,2016-01-28T19:30:44.060Z,"19km N of Joshua Tree, CA",earthquake,1.54,31.61,0.078,7,reviewed,ci,ci
+1960-10-29T05:33:58.010Z,34.328,-116.344,6,3.39,ml,7,224,0.9181,0.61,ci,ci3349323,2016-01-28T19:43:29.420Z,"22km N of Joshua Tree, CA",earthquake,2.72,31.61,0.052,10,reviewed,ci,ci
+1960-10-29T09:37:40.000Z,-15.678,-173.031,35,5.7,mw,,,,,iscgem,iscgem880649,2015-05-13T18:52:55.000Z,"Tonga",earthquake,,,,,automatic,iscgem,iscgem
+1960-10-30T04:16:17.180Z,32.941,-117.605,6,2.96,ml,6,214,0.7464,0.39,ci,ci3349324,2016-01-28T19:43:29.920Z,"31km WSW of Encinitas, CA",earthquake,2.31,31.61,0.076,5,reviewed,ci,ci
+1960-10-30T12:14:37.000Z,-23.483,-70.265,35,6.2,mw,,,,,iscgem,iscgem880659,2015-05-13T18:52:55.000Z,"Antofagasta, Chile",earthquake,,,,,automatic,iscgem,iscgem
+1960-10-30T15:57:56.780Z,34.3176667,-116.3298333,6,2.87,ml,5,231,0.8366,0.47,ci,ci3349325,2016-01-28T19:30:44.630Z,"20km N of Joshua Tree, CA",earthquake,2.39,31.61,0.035,4,reviewed,ci,ci
+1960-10-31T04:46:29.670Z,34.1938333,-116.3553333,6,3.24,ml,9,159,0.7682,0.64,ci,ci3349760,2016-01-28T19:35:00.640Z,"8km NNW of Joshua Tree, CA",earthquake,1.83,31.61,0.054,7,reviewed,ci,ci
+1960-10-31T09:59:57.080Z,34.2733333,-116.373,6,2.81,ml,6,205,0.8311,0.54,ci,ci3349761,2016-01-28T19:30:45.130Z,"16km NNW of Joshua Tree, CA",earthquake,2.48,31.61,0.07,5,reviewed,ci,ci
+1960-11-01T06:15:31.000Z,-11.295,-12.995,15,5.7,mw,,,,,iscgem,iscgem880669,2015-05-13T18:52:55.000Z,"Ascension Island region",earthquake,,,,,automatic,iscgem,iscgem
+1960-11-01T08:45:59.000Z,-38.467,-75.031,20,7.4,mw,,,,,iscgem,iscgem880670,2015-05-13T18:52:55.000Z,"off the coast of Araucania, Chile",earthquake,,,,,automatic,iscgem,iscgem
+1960-11-02T17:14:50.000Z,-11.031,164.937,15,6.3,mw,,,,,iscgem,iscgem880682,2015-05-13T18:52:55.000Z,"Santa Cruz Islands region",earthquake,,,,,automatic,iscgem,iscgem
+1960-11-04T21:11:01.000Z,35.3,-119.3333333,6,3.8,mh,,,,,ci,ci10086582,2016-01-28T19:52:10.970Z,"17km SE of Buttonwillow, CA",earthquake,,,,0,reviewed,ci,ci
+1960-11-05T20:20:53.000Z,39.081,20.668,20,6,mw,,,,,iscgem,iscgem880700,2015-05-13T18:52:55.000Z,"Greece-Albania border region",earthquake,,,,,automatic,iscgem,iscgem
+1960-11-06T04:38:20.000Z,53.053,159.963,33.9,6.2,mw,,,,,iscgem,iscgem880702,2015-05-13T18:52:55.000Z,"near the east coast of the Kamchatka Peninsula, Russia",earthquake,,,,,automatic,iscgem,iscgem
+1960-11-06T06:14:52.000Z,-31.125,-177.526,25,6.3,mw,,,,,iscgem,iscgem880703,2015-05-13T18:52:55.000Z,"Kermadec Islands region",earthquake,,,,,automatic,iscgem,iscgem
+1960-11-06T11:55:23.760Z,33.7141667,-118.026,6,3.34,ml,8,119,0.4497,0.7,ci,ci3349764,2016-01-28T19:56:29.370Z,"3km NW of Huntington Beach, CA",earthquake,1.69,31.61,0.148,9,reviewed,ci,ci
+1960-11-06T22:10:10.000Z,52.598,-168.001,40.8,5.9,mw,,,,,iscgem,iscgem880707,2015-05-13T18:52:55.000Z,"Fox Islands, Aleutian Islands, Alaska",earthquake,,,,,automatic,iscgem,iscgem
+1960-11-07T21:11:05.340Z,35.29,-119.2571667,6,3.73,ml,8,194,0.4014,0.28,ci,ci3349765,2016-01-28T20:00:48.840Z,"14km SW of Rosedale, CA",earthquake,1.62,31.61,0.155,11,reviewed,ci,ci
+1960-11-08T01:22:19.890Z,35.2618333,-118.671,6,3.02,ml,8,82,0.4312,0.66,ci,ci3349766,2016-01-28T19:43:30.410Z,"16km ENE of Arvin, CA",earthquake,1.55,31.61,0.068,10,reviewed,ci,ci
+1960-11-08T19:00:17.370Z,33.2701667,-118.7071667,6,2.98,ml,7,217,0.5566,0.47,ci,ci3349767,2016-01-28T20:00:49.300Z,"28km NNW of San Clemente Is. (NW tip), CA",earthquake,2.3,31.61,0.115,7,reviewed,ci,ci
+1960-11-09T03:17:59.000Z,-60.607,-25.489,15,6.4,mw,,,,,iscgem,iscgem880728,2015-05-13T18:52:55.000Z,"South Sandwich Islands region",earthquake,,,,,automatic,iscgem,iscgem
+1960-11-09T10:43:45.000Z,32.706,103.629,25,6.3,mw,,,,,iscgem,iscgem880729,2015-05-13T18:52:55.000Z,"western Sichuan, China",earthquake,,,,,automatic,iscgem,iscgem
+1960-11-09T20:06:20.000Z,-23.266,-70.372,35,6.2,mw,,,,,iscgem,iscgem880731,2015-05-13T18:52:55.000Z,"Antofagasta, Chile",earthquake,,,,,automatic,iscgem,iscgem
+1960-11-11T05:31:31.000Z,38.724,20.681,25,5.6,mw,,,,,iscgem,iscgem880743,2015-05-13T18:52:55.000Z,"Greece",earthquake,,,,,automatic,iscgem,iscgem
+1960-11-13T07:52:59.280Z,35.7661667,-117.9438333,6,3.48,ml,10,84,0.2859,0.48,ci,ci3347769,2016-01-28T19:35:01.140Z,"18km NW of Inyokern, CA",earthquake,1.45,31.61,0.211,9,reviewed,ci,ci
+1960-11-13T09:20:36.000Z,51.252,-168.865,22.1,6.8,mw,,,,,iscgem,iscgem880759,2015-05-13T18:52:55.000Z,"Fox Islands, Aleutian Islands, Alaska",earthquake,,,,,automatic,iscgem,iscgem
+1960-11-17T06:55:47.570Z,33.3151667,-116.4945,12.66,3.36,ml,5,241,0.3106,0.54,ci,ci3347770,2016-01-28T19:39:04.220Z,"13km WNW of Borrego Springs, CA",earthquake,5.6,3.17,0.04,4,reviewed,ci,ci
+1960-11-18T23:22:13.730Z,35.0436667,-117.7088333,6,2.54,ml,5,151,0.7757,0.63,ci,ci3347771,2016-01-28T19:56:29.900Z,"7km NW of Boron, CA",quarry blast,2.68,31.61,0.078,6,reviewed,ci,ci
+1960-11-20T04:39:02.550Z,34.0905,-117.7781667,6.21,2.92,ml,6,102,0.3311,0.25,ci,ci3347774,2016-01-28T19:43:30.890Z,"2km SW of La Verne, CA",earthquake,1.25,1.64,0.179,6,reviewed,ci,ci
+1960-11-20T22:01:57.000Z,-6.775,-80.918,15,7.6,mw,,,,,iscgem,iscgem880820,2015-05-13T18:52:55.000Z,"near the coast of northern Peru",earthquake,,,,,automatic,iscgem,iscgem
+1960-11-22T03:31:57.000Z,-19.145,-172.944,15,6,mw,,,,,iscgem,iscgem880828,2015-05-13T18:52:55.000Z,"Tonga region",earthquake,,,,,automatic,iscgem,iscgem
+1960-11-22T05:47:54.890Z,35.1335,-116.7366667,6,3.2,ml,9,191,0.9783,0.81,ci,ci3347775,2016-01-28T19:43:31.430Z,"15km SSW of Fort Irwin, CA",earthquake,3.19,31.61,0.113,11,reviewed,ci,ci
+1960-11-22T06:21:49.000Z,-36.219,52.76,15,6.1,mw,,,,,iscgem,iscgem880830,2015-05-13T18:52:55.000Z,"Southwest Indian Ridge",earthquake,,,,,automatic,iscgem,iscgem
+1960-11-22T12:28:54.000Z,-40.134,-74.788,20,6.2,mw,,,,,iscgem,iscgem880832,2015-05-13T18:52:55.000Z,"offshore Los Lagos, Chile",earthquake,,,,,automatic,iscgem,iscgem
+1960-11-23T00:15:24.220Z,32.705,-118.2666667,6,3.03,ml,9,208,,0.42,ci,ci3347776,2016-01-28T19:43:31.930Z,"15km SSE of San Clemente Is. (SE tip), CA",earthquake,2.66,31.61,0.065,6,reviewed,ci,ci
+1960-11-23T14:12:27.000Z,-24.56,-176.31,25,6.6,mw,,,,,iscgem,iscgem880837,2015-05-13T18:52:55.000Z,"south of the Fiji Islands",earthquake,,,,,automatic,iscgem,iscgem
+1960-11-23T17:44:30.540Z,32.8218333,-118.1571667,6,3.21,ml,11,195,0.9453,0.85,ci,ci3347777,2016-01-28T19:35:01.650Z,"18km E of San Clemente Is. (SE tip), CA",earthquake,3.53,31.61,0.257,8,reviewed,ci,ci
+1960-11-23T17:56:41.000Z,-24.349,-176.059,45,5.9,mw,,,,,iscgem,iscgem880840,2015-05-13T18:52:55.000Z,"south of the Fiji Islands",earthquake,,,,,automatic,iscgem,iscgem
+1960-11-24T04:50:16.000Z,-4.583,153.189,65,6.1,mw,,,,,iscgem,iscgem880845,2015-05-13T18:52:55.000Z,"New Ireland region, Papua New Guinea",earthquake,,,,,automatic,iscgem,iscgem
+1960-11-24T06:52:47.000Z,-24.678,-176.248,30,7.2,mw,,,,,iscgem,iscgem880846,2015-05-13T18:52:55.000Z,"south of the Fiji Islands",earthquake,,,,,automatic,iscgem,iscgem
+1960-11-25T22:30:28.770Z,33.241,-117.4716667,6,3.59,ml,11,176,0.5223,0.44,ci,ci3347779,2016-01-28T19:52:11.690Z,"9km W of Camp Pendleton South, CA",earthquake,1.5,31.61,0.182,8,reviewed,ci,ci
+1960-11-28T13:26:57.520Z,33.185,-118.9393333,6,3.49,ml,10,174,0.4799,0.78,ci,ci3347780,2016-01-28T19:52:12.190Z,"34km SSE of Santa Barbara Is., CA",earthquake,2.42,31.61,0.082,9,reviewed,ci,ci
+1960-11-29T09:31:58.000Z,-44.089,-76.018,20,6,mw,,,,,iscgem,iscgem880884,2015-05-13T18:52:55.000Z,"off the coast of Aisen, Chile",earthquake,,,,,automatic,iscgem,iscgem
+1960-12-01T05:39:56.380Z,37.571,-118.803,6,3.52,ml,4,332,0.689,0.2,ci,ci3347781,2016-01-28T19:47:44.250Z,"17km ESE of Mammoth Lakes, CA",earthquake,2.74,31.61,0.417,10,reviewed,ci,ci
+1960-12-01T14:23:48.550Z,34.3186667,-119.8758333,4,3.27,ml,8,228,0.1804,0.39,ci,ci3347782,2016-01-28T19:47:44.770Z,"11km S of Isla Vista, CA",earthquake,1.48,1.13,0.131,12,reviewed,ci,ci
+1960-12-01T19:52:43.350Z,32.841,-115.4183333,6,3.57,ml,3,274,0.8836,0.37,ci,ci3347783,2016-01-28T19:39:04.750Z,"5km NW of Holtville, CA",earthquake,3.22,31.61,0.064,5,reviewed,ci,ci
+1960-12-01T20:49:51.000Z,48.937,-129.399,20,6.2,mw,,,,,iscgem,iscgem880899,2015-05-13T18:52:55.000Z,"Vancouver Island, Canada region",earthquake,,,,,automatic,iscgem,iscgem
+1960-12-02T09:10:48.000Z,-24.732,-70.297,35,7.3,mw,,,,,iscgem,iscgem880905,2015-05-13T18:52:55.000Z,"Antofagasta, Chile",earthquake,,,,,automatic,iscgem,iscgem
+1960-12-02T20:38:44.210Z,34.6348333,-117.1491667,0.01,2.79,ml,8,143,0.6666,0.46,ci,ci3347784,2016-04-02T16:58:00.075Z,"15km NNE of Apple Valley, CA",quarry blast,1.3,31.61,0.166,12,reviewed,ci,ci
+1960-12-03T04:24:18.000Z,43.099,104.521,20,6.8,mw,,,,,iscgem,iscgem880912,2015-05-13T18:52:55.000Z,"central Mongolia",earthquake,,,,,automatic,iscgem,iscgem
+1960-12-03T18:07:44.020Z,34.0403333,-117.2781667,17.79,2.86,ml,6,161,0.09333,0.39,ci,ci3347785,2016-01-28T19:52:12.680Z,"2km WSW of Loma Linda, CA",earthquake,2.29,1.2,0.109,7,reviewed,ci,ci
+1960-12-05T08:38:48.000Z,43.224,104.386,20,5.7,mw,,,,,iscgem,iscgem880930,2015-05-13T18:52:55.000Z,"central Mongolia",earthquake,,,,,automatic,iscgem,iscgem
+1960-12-05T13:00:47.470Z,31.4826667,-116.5458333,6,4.1,mh,2,357,1.199,1.71,ci,ci10086586,2016-01-28T19:52:13.140Z,"26km S of Maneadero, B.C., MX",earthquake,99,31.61,,0,reviewed,ci,ci
+1960-12-06T08:56:14.000Z,8.52,-82.907,35,6.2,mw,,,,,iscgem,iscgem880940,2015-05-13T18:52:55.000Z,"Panama-Costa Rica border region",earthquake,,,,,automatic,iscgem,iscgem
+1960-12-06T08:56:16.000Z,-21.404,-69.694,49.6,6.1,mw,,,,,iscgem,iscgem880939,2015-05-13T18:52:55.000Z,"Tarapaca, Chile",earthquake,,,,,automatic,iscgem,iscgem
+1960-12-09T00:24:45.660Z,31.6223333,-116.4166667,6,4,mh,3,353,1.077,0.81,ci,ci10086590,2016-01-28T19:43:32.420Z,"18km SE of Maneadero, B.C., MX",earthquake,50.23,31.61,,0,reviewed,ci,ci
+1960-12-11T01:07:45.000Z,36.186,84.455,15,5.7,mw,,,,,iscgem,iscgem880974,2015-05-13T18:52:55.000Z,"southern Xinjiang, China",earthquake,,,,,automatic,iscgem,iscgem
+1960-12-11T18:53:08.000Z,-15.619,167.167,65,6.1,mw,,,,,iscgem,iscgem880976,2015-05-13T18:52:55.000Z,"Vanuatu",earthquake,,,,,automatic,iscgem,iscgem
+1960-12-13T07:36:20.000Z,-51.964,160.914,15,6.8,mw,,,,,iscgem,iscgem880984,2015-05-13T18:52:55.000Z,"north of Macquarie Island",earthquake,,,,,automatic,iscgem,iscgem
+1960-12-13T10:05:25.000Z,27.863,142.623,15,6.1,mw,,,,,iscgem,iscgem880986,2015-05-13T18:52:55.000Z,"Bonin Islands, Japan region",earthquake,,,,,automatic,iscgem,iscgem
+1960-12-14T00:57:25.000Z,-10.948,165.519,25,6,mw,,,,,iscgem,iscgem880988,2015-05-13T18:52:55.000Z,"Santa Cruz Islands",earthquake,,,,,automatic,iscgem,iscgem
+1960-12-14T23:51:30.000Z,2.999,126.249,65,6.3,mw,,,,,iscgem,iscgem880993,2015-05-13T18:52:55.000Z,"Molucca Sea",earthquake,,,,,automatic,iscgem,iscgem
+1960-12-18T18:20:48.000Z,8.668,125.987,35,5.8,mw,,,,,iscgem,iscgem881019,2015-05-13T18:52:55.000Z,"Mindanao, Philippines",earthquake,,,,,automatic,iscgem,iscgem
+1960-12-20T22:18:14.100Z,35.1083333,-116.4988333,6,3.12,ml,5,265,1.141,0.68,ci,ci3347787,2016-01-28T19:30:45.610Z,"24km SE of Fort Irwin, CA",earthquake,5.86,31.61,0.118,9,reviewed,ci,ci
+1960-12-22T03:02:21.000Z,8.729,93.945,15,5.7,mw,,,,,iscgem,iscgem881043,2015-05-13T18:52:55.000Z,"Nicobar Islands, India region",earthquake,,,,,automatic,iscgem,iscgem
+1960-12-22T04:11:20.630Z,33.149,-116.1326667,6,3.12,ml,4,275,0.6516,0.54,ci,ci3347788,2016-01-28T19:43:32.920Z,"1km N of Ocotillo Wells, CA",earthquake,5.91,31.61,0.085,5,reviewed,ci,ci
+1960-12-22T06:31:20.000Z,-30.91,-176.965,15,5.7,mw,,,,,iscgem,iscgem881045,2015-05-13T18:52:55.000Z,"Kermadec Islands region",earthquake,,,,,automatic,iscgem,iscgem
+1960-12-23T18:39:55.110Z,34.663,-118.5781667,6,3,ml,8,159,0.6138,0.61,ci,ci3347800,2016-01-28T19:35:02.200Z,"12km W of Lake Hughes, CA",earthquake,1.97,31.61,0.098,10,reviewed,ci,ci
+1960-12-26T22:47:09.260Z,34.1318333,-118.6833333,6,2.8,ml,6,231,0.4251,0.37,ci,ci3347790,2016-01-28T19:35:02.700Z,"5km SW of Calabasas, CA",earthquake,2.5,31.61,0.273,3,reviewed,ci,ci
+1960-12-27T10:35:28.000Z,41.416,-125.074,20,5.9,mw,,,,,iscgem,iscgem881080,2015-05-13T18:52:55.000Z,"offshore Northern California",earthquake,,,,,automatic,iscgem,iscgem
+1960-12-28T15:59:46.460Z,31.9423333,-116.1921667,6,3.7,mh,3,353,0.8404,0.27,ci,ci10086598,2016-01-28T20:00:49.780Z,"41km ENE of Ensenada, B.C., MX",earthquake,11.73,31.61,,0,reviewed,ci,ci
+1960-12-29T10:36:45.000Z,-44.858,-76.148,25,6.3,mw,,,,,iscgem,iscgem881092,2015-05-13T18:52:55.000Z,"off the coast of Aisen, Chile",earthquake,,,,,automatic,iscgem,iscgem
+1960-12-29T14:32:55.400Z,35.4303333,-117.7453333,6,2.92,ml,8,150,0.403,0.6,ci,ci3347792,2016-01-28T19:30:46.160Z,"12km WNW of Johannesburg, CA",earthquake,1.96,31.61,0.133,10,reviewed,ci,ci
+1960-12-30T21:33:46.510Z,33.1575,-116.0413333,6,3.72,ml,6,182,,0.68,ci,ci3347794,2016-01-28T19:40:13.950Z,"9km E of Ocotillo Wells, CA",earthquake,2.67,31.61,0.185,12,reviewed,ci,ci
+1960-12-30T21:40:25.780Z,33.1946667,-115.879,6,4,ml,5,212,0.4827,0.36,ci,ci3347795,2016-01-28T19:31:48.170Z,"14km SSE of Salton City, CA",earthquake,1.72,31.61,0.168,12,reviewed,ci,ci
+1960-12-31T06:18:35.150Z,34.0481667,-116.7936667,6,3.16,ml,9,149,0.4863,0.57,ci,ci3347796,2016-01-28T19:39:05.250Z,"14km N of Cabazon, CA",earthquake,1.87,31.61,0.149,4,reviewed,ci,ci
+1960-12-31T18:08:09.000Z,-44.218,-75.618,20,6,mw,,,,,iscgem,iscgem881106,2015-05-13T18:52:55.000Z,"off the coast of Aisen, Chile",earthquake,,,,,automatic,iscgem,iscgem
+1968-08-01T00:14:17.000Z,-26.822,-177.09,127.2,5.7,mw,,,,,iscgem,iscgem817534,2015-05-13T18:53:02.000Z,"south of the Fiji Islands",earthquake,,,,,automatic,iscgem,iscgem
+1968-08-01T05:54:33.970Z,34.084,-116.7646667,6,3.5,ml,9,112,0.5152,0.24,ci,ci3328650,2016-01-28T20:03:51.500Z,"17km WNW of Morongo Valley, CA",earthquake,0.87,31.61,0.105,10,reviewed,ci,ci
+1968-08-01T20:19:22.000Z,16.316,122.067,25,7.6,mw,,,,,iscgem,iscgem817557,2015-05-13T18:53:02.000Z,"Luzon, Philippines",earthquake,,,,,automatic,iscgem,iscgem
+1968-08-02T13:30:25.000Z,27.579,60.979,67.4,5.9,mw,,,,,iscgem,iscgem817580,2015-05-13T18:53:02.000Z,"southeastern Iran",earthquake,,,,,automatic,iscgem,iscgem
+1968-08-02T14:06:43.000Z,16.519,-97.739,25,7.3,mw,,,,,iscgem,iscgem817583,2015-05-13T18:53:02.000Z,"Oaxaca, Mexico",earthquake,,,,,automatic,iscgem,iscgem
+1968-08-03T04:54:34.000Z,25.637,128.49,15,6.7,mw,,,,,iscgem,iscgem817611,2015-05-13T18:53:02.000Z,"Ryukyu Islands, Japan",earthquake,,,,,automatic,iscgem,iscgem
+1968-08-03T06:25:05.000Z,16.475,122.23,25,6.4,mw,,,,,iscgem,iscgem817612,2015-05-13T18:53:02.000Z,"Luzon, Philippines",earthquake,,,,,automatic,iscgem,iscgem
+1968-08-03T10:02:19.260Z,32.8846667,-116.223,6,3.28,ml,8,161,0.4299,0.67,ci,ci3328651,2016-01-28T19:55:22.650Z,"27km NW of Ocotillo, CA",earthquake,2.3,31.61,0.123,5,reviewed,ci,ci
+1968-08-03T12:55:04.750Z,34.2396667,-119.6365,10.42,3.1,ml,10,220,0.2108,0.52,ci,ci3328652,2016-01-28T19:46:40.030Z,"21km SSW of Carpinteria, CA",earthquake,2.32,2.59,0.154,10,reviewed,ci,ci
+1968-08-04T11:41:25.000Z,6.498,126.777,100,6.1,mw,,,,,iscgem,iscgem817656,2015-05-13T18:53:02.000Z,"Mindanao, Philippines",earthquake,,,,,automatic,iscgem,iscgem
+1968-08-05T16:17:06.000Z,33.231,132.192,45.7,6.8,mw,,,,,iscgem,iscgem817699,2015-05-13T18:53:02.000Z,"Shikoku, Japan",earthquake,,,,,automatic,iscgem,iscgem
+1968-08-06T10:18:41.780Z,34.0641667,-116.5045,6,3.74,ml,14,127,0.7267,0.46,ci,ci3328653,2016-01-28T20:03:52.000Z,"7km ENE of Morongo Valley, CA",earthquake,1.16,31.61,0.186,12,reviewed,ci,ci
+1968-08-07T08:00:15.000Z,43.024,144.844,59.9,5.8,mw,,,,,iscgem,iscgem817753,2015-05-13T18:53:02.000Z,"Hokkaido, Japan region",earthquake,,,,,automatic,iscgem,iscgem
+1968-08-08T04:55:10.000Z,36.363,141.587,37.6,5.8,mw,,,,,iscgem,iscgem817774,2015-05-13T18:53:02.000Z,"near the east coast of Honshu, Japan",earthquake,,,,,automatic,iscgem,iscgem
+1968-08-09T02:08:54.690Z,35.5511667,-116.2113333,6,2.67,mh,4,241,0.5455,0.55,ci,ci3328655,2016-01-28T20:03:52.520Z,"33km S of Tecopa, CA",earthquake,3.66,31.61,0.229,16,reviewed,ci,ci
+1968-08-09T13:00:01.550Z,37.145,-116.0216667,0.01,3.6,ml,9,283,1.768,0.33,ci,ci3328656,2016-01-28T19:42:18.510Z,"70km ENE of Beatty, NV",nuclear explosion,3.05,31.61,0.161,9,reviewed,ci,ci
+1968-08-10T02:07:06.000Z,1.514,126.234,23,7.6,mw,,,,,iscgem,iscgem817844,2015-05-13T18:53:02.000Z,"Molucca Sea",earthquake,,,,,automatic,iscgem,iscgem
+1968-08-10T04:05:50.000Z,1.328,126.478,20,5.8,mw,,,,,iscgem,iscgem817849,2015-05-13T18:53:02.000Z,"Molucca Sea",earthquake,,,,,automatic,iscgem,iscgem
+1968-08-10T05:51:48.000Z,1.402,126.182,25,6.5,mw,,,,,iscgem,iscgem817856,2015-05-13T18:53:02.000Z,"Molucca Sea",earthquake,,,,,automatic,iscgem,iscgem
+1968-08-10T08:10:17.000Z,1.619,126.297,30,5.9,mw,,,,,iscgem,iscgem817862,2015-05-13T18:53:02.000Z,"Molucca Sea",earthquake,,,,,automatic,iscgem,iscgem
+1968-08-10T23:14:03.590Z,32.5693333,-116.1376667,6,3.08,ml,3,218,0.4643,0.31,ci,ci3328657,2016-01-28T19:33:50.570Z,"23km SW of Ocotillo, CA",earthquake,2.37,31.61,0.042,3,reviewed,ci,ci
+1968-08-11T02:41:54.000Z,-15.242,-73.924,90.2,5.8,mw,,,,,iscgem,iscgem817898,2015-05-13T18:53:02.000Z,"southern Peru",earthquake,,,,,automatic,iscgem,iscgem
+1968-08-11T12:07:04.520Z,32.9395,-116.0086667,6,2.76,ml,5,163,0.6157,0.64,ci,ci3328658,2016-01-28T19:46:40.520Z,"23km N of Ocotillo, CA",earthquake,2.48,31.61,0.027,3,reviewed,ci,ci
+1968-08-11T12:37:30.000Z,52.053,-179.955,165.2,5.7,mw,,,,,iscgem,iscgem817909,2015-05-13T18:53:02.000Z,"Andreanof Islands, Aleutian Islands, Alaska",earthquake,,,,,automatic,iscgem,iscgem
+1968-08-11T20:00:44.000Z,1.584,126.483,30,6,mw,,,,,iscgem,iscgem817918,2015-05-13T18:53:02.000Z,"Molucca Sea",earthquake,,,,,automatic,iscgem,iscgem
+1968-08-12T07:07:08.150Z,32.9671667,-116.0323333,6,2.95,ml,5,159,0.6101,0.2,ci,ci3328659,2016-01-28T19:55:23.220Z,"22km SSE of Ocotillo Wells, CA",earthquake,0.93,31.61,0.106,5,reviewed,ci,ci
+1968-08-13T02:34:49.030Z,33.9656667,-117.253,11.16,2.58,ml,10,125,0.1055,0.43,ci,ci3328660,2016-01-28T19:55:23.750Z,"5km NNW of Moreno Valley, CA",earthquake,1.44,1.92,0.03,3,reviewed,ci,ci
+1968-08-13T02:52:51.000Z,1.704,126.477,30,5.8,mw,,,,,iscgem,iscgem817959,2015-05-13T18:53:02.000Z,"Molucca Sea",earthquake,,,,,automatic,iscgem,iscgem
+1968-08-13T08:41:11.420Z,34.0381667,-118.9796667,6,2.68,ml,9,191,0.6799,0.6,ci,ci3328661,2016-01-28T19:50:58.400Z,"16km WNW of Malibu, CA",earthquake,2.21,31.61,0.325,6,reviewed,ci,ci
+1968-08-13T19:35:22.000Z,-15.625,167.662,125,5.7,mw,,,,,iscgemsup,iscgemsup817990,2015-07-13T17:02:24.000Z,"Vanuatu",earthquake,,,,,automatic,iscgem,iscgem
+1968-08-14T07:56:39.000Z,15.103,122.492,22.5,5.7,mw,,,,,iscgem,iscgem818002,2015-05-13T18:53:02.000Z,"Philippine Islands region",earthquake,,,,,automatic,iscgem,iscgem
+1968-08-14T08:38:42.000Z,18.201,-103.232,20,6,mw,,,,,iscgem,iscgem818003,2015-05-13T18:53:02.000Z,"offshore Michoacan, Mexico",earthquake,,,,,automatic,iscgem,iscgem
+1968-08-14T09:19:23.690Z,33.2965,-116.2373333,6,3.63,ml,13,110,0.5266,0.52,ci,ci3328663,2016-01-28T19:59:37.920Z,"14km ENE of Borrego Springs, CA",earthquake,1.23,31.61,0.135,12,reviewed,ci,ci
+1968-08-14T22:14:23.000Z,0.157,119.802,20,7.2,mw,,,,,iscgem,iscgem818025,2015-05-13T18:53:02.000Z,"Minahasa, Sulawesi, Indonesia",earthquake,,,,,automatic,iscgem,iscgem
+1968-08-15T17:00:03.890Z,37.0756667,-116.0635,6,3.81,ml,12,255,1.733,0.35,ci,ci3328664,2016-01-28T19:55:22.080Z,"64km ENE of Beatty, NV",nuclear explosion,3.75,31.61,0.193,10,reviewed,ci,ci
+1968-08-15T17:41:33.000Z,-12.76,166.188,25,5.6,mw,,,,,iscgem,iscgem818047,2015-05-13T18:53:02.000Z,"Santa Cruz Islands",earthquake,,,,,automatic,iscgem,iscgem
+1968-08-16T10:39:17.000Z,38.589,143.574,15,5.9,mw,,,,,iscgem,iscgem818066,2015-05-13T18:53:02.000Z,"off the east coast of Honshu, Japan",earthquake,,,,,automatic,iscgem,iscgem
+1968-08-16T12:12:18.990Z,34.8688333,-120.2603333,6,3.15,ml,8,262,0.412,0.61,ci,ci3328666,2016-01-28T19:55:24.280Z,"14km N of Los Alamos, CA",earthquake,4.25,31.61,0.126,11,reviewed,ci,ci
+1968-08-16T18:25:54.000Z,16.557,-98.03,30,5.6,mw,,,,,iscgem,iscgem818076,2015-05-13T18:53:02.000Z,"Oaxaca, Mexico",earthquake,,,,,automatic,iscgem,iscgem
+1968-08-17T04:00:38.000Z,1.364,126.268,35,6,mw,,,,,iscgem,iscgem818083,2015-05-13T18:53:02.000Z,"Molucca Sea",earthquake,,,,,automatic,iscgem,iscgem
+1968-08-17T07:44:42.460Z,34.1105,-117.2766667,6.23,3.25,ml,12,88,0.1426,0.56,ci,ci3328668,2016-01-28T19:55:24.820Z,"3km SE of San Bernardino, CA",earthquake,1.57,2.59,0.095,10,reviewed,ci,ci
+1968-08-18T18:38:32.000Z,-10.188,159.914,543.1,7.3,mw,,,,,iscgem,iscgem818136,2015-05-13T18:53:02.000Z,"Solomon Islands",earthquake,,,,,automatic,iscgem,iscgem
+1968-08-18T18:56:50.000Z,1.159,126.1,35,5.8,mw,,,,,iscgem,iscgem818137,2015-05-13T18:53:02.000Z,"Molucca Sea",earthquake,,,,,automatic,iscgem,iscgem
+1968-08-19T01:53:49.070Z,34.219,-117.1366667,6,2.15,mh,5,151,0.2997,0.36,ci,ci3328669,2016-01-28T19:50:58.880Z,"3km WNW of Running Springs, CA",earthquake,1.14,31.61,0.186,11,reviewed,ci,ci
+1968-08-20T01:31:15.440Z,32.7773333,-115.4498333,6,3.43,ml,4,203,0.5909,0.71,ci,ci3328670,2016-01-28T19:50:59.380Z,"8km WSW of Holtville, CA",earthquake,3.38,31.61,0.149,3,reviewed,ci,ci
+1968-08-20T01:51:24.510Z,32.6891667,-115.4163333,6,2.73,mh,3,217,0.6136,0.59,ci,ci3328672,2016-01-28T20:03:52.990Z,"6km NE of Mexicali, B.C., MX",earthquake,5.42,31.61,0.076,6,reviewed,ci,ci
+1968-08-20T01:58:49.160Z,32.7076667,-115.4358333,6,2.55,mh,3,213,0.6164,0.54,ci,ci3328673,2016-01-28T19:55:25.380Z,"7km ENE of Calexico, CA",earthquake,5.04,31.61,0.056,6,reviewed,ci,ci
+1968-08-20T06:37:23.320Z,32.7705,-115.4815,6,2.75,mh,4,204,0.6177,0.33,ci,ci3328674,2016-01-28T19:38:05.020Z,"6km NE of Heber, CA",earthquake,1.61,31.61,0.059,7,reviewed,ci,ci
+1968-08-20T11:16:57.000Z,5.485,147.082,10,5.8,mw,,,,,iscgem,iscgem818179,2015-05-13T18:53:02.000Z,"State of Yap, Federated States of Micronesia",earthquake,,,,,automatic,iscgem,iscgem
+1968-08-20T15:34:26.120Z,35.4118333,-117.8618333,6,2.78,ml,9,91,0.457,0.27,ci,ci3328676,2016-01-28T19:59:38.440Z,"21km WNW of Johannesburg, CA",earthquake,0.51,31.61,0.035,9,reviewed,ci,ci
+1968-08-21T02:02:09.890Z,35.0158333,-119.0893333,12.5,3.42,ml,14,139,0.2118,0.48,ci,ci3328678,2016-01-28T19:46:41.030Z,"17km WNW of Grapevine, CA",earthquake,1.06,1.91,0.066,11,reviewed,ci,ci
+1968-08-21T17:56:48.000Z,-30.775,-178.766,15,6.5,mw,,,,,iscgem,iscgem818206,2015-05-13T18:53:02.000Z,"Kermadec Islands, New Zealand",earthquake,,,,,automatic,iscgem,iscgem
+1968-08-22T14:00:08.000Z,52.96,171.15,25.6,6.2,mw,,,,,iscgem,iscgem818229,2015-05-13T18:53:02.000Z,"Near Islands, Aleutian Islands, Alaska",earthquake,,,,,automatic,iscgem,iscgem
+1968-08-22T19:35:19.000Z,32.9151667,-115.8303333,6,3.16,ml,4,172,0.7468,0.71,ci,ci3328679,2016-01-28T19:59:38.960Z,"24km SW of Westmorland, CA",earthquake,3.37,31.61,0.272,5,reviewed,ci,ci
+1968-08-23T00:17:35.510Z,31.9673333,-116.1741667,6,3.5,ml,4,284,0.8263,0.35,ci,ci3328680,2016-01-28T19:38:05.410Z,"43km ENE of Ensenada, B.C., MX",earthquake,5.58,31.61,0.109,5,reviewed,ci,ci
+1968-08-23T21:27:02.700Z,33.292,-116.2268333,6,2.87,ml,7,111,0.5359,0.62,ci,ci3328681,2016-01-28T19:42:19.540Z,"14km ENE of Borrego Springs, CA",earthquake,2.45,31.61,0.18,5,reviewed,ci,ci
+1968-08-23T22:36:52.000Z,-21.989,-63.554,533.6,6.3,mw,,,,,iscgem,iscgem818277,2015-05-13T18:53:02.000Z,"Tarija, Bolivia",earthquake,,,,,automatic,iscgem,iscgem
+1968-08-24T16:25:56.990Z,35.5051667,-118.48,0.68,2.84,ml,9,95,0.1573,0.5,ci,ci3328682,2016-01-28T19:55:25.850Z,"9km S of Bodfish, CA",earthquake,1.31,3.53,0.088,11,reviewed,ci,ci
+1968-08-25T09:07:32.000Z,40.108,143.43,21,5.7,mw,,,,,iscgem,iscgem818320,2015-05-13T18:53:02.000Z,"off the east coast of Honshu, Japan",earthquake,,,,,automatic,iscgem,iscgem
+1968-08-25T09:13:48.000Z,40.056,143.393,21.5,5.7,mw,,,,,iscgem,iscgem818322,2015-05-13T18:53:02.000Z,"off the east coast of Honshu, Japan",earthquake,,,,,automatic,iscgem,iscgem
+1968-08-25T11:15:47.000Z,-20.117,-174.984,97.1,5.7,mw,,,,,iscgem,iscgem818326,2015-05-13T18:53:02.000Z,"Tonga",earthquake,,,,,automatic,iscgem,iscgem
+1968-08-26T09:25:59.000Z,-16.321,178.161,20,5.8,mw,,,,,iscgem,iscgem818343,2015-05-13T18:53:02.000Z,"Fiji",earthquake,,,,,automatic,iscgem,iscgem
+1968-08-27T13:45:51.000Z,12.363,144.545,27.5,5.5,mw,,,,,iscgem,iscgem818381,2015-05-13T18:53:02.000Z,"Guam region",earthquake,,,,,automatic,iscgem,iscgem
+1968-08-27T16:30:01.260Z,36.8771667,-115.9311667,0.2,4.02,ml,13,249,1.724,0.49,ci,ci3328286,2016-01-28T19:42:19.020Z,"73km E of Beatty, NV",nuclear explosion,99,31.61,0.198,11,reviewed,ci,ci
+1968-08-28T11:50:29.000Z,-19.962,176.486,15,5.9,mw,,,,,iscgem,iscgem818402,2015-05-13T18:53:02.000Z,"south of the Fiji Islands",earthquake,,,,,automatic,iscgem,iscgem
+1968-08-28T20:42:19.000Z,15.51,122.058,20,6.4,mw,,,,,iscgem,iscgem818415,2015-05-13T18:53:02.000Z,"Philippine Islands region",earthquake,,,,,automatic,iscgem,iscgem
+1968-08-29T22:45:01.380Z,37.2503333,-116.3468333,0.7,5.08,ml,18,259,1.517,0.38,ci,ci3328287,2016-01-28T19:38:04.600Z,"52km NE of Beatty, NV",nuclear explosion,99,31.61,0.254,10,reviewed,ci,ci
+1968-08-31T10:47:43.000Z,34.158,59.083,10,7.1,mw,,,,,iscgem,iscgem818488,2015-05-13T18:53:02.000Z,"northeastern Iran",earthquake,,,,,automatic,iscgem,iscgem
