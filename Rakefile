@@ -34,7 +34,7 @@ task :default => [:setup]
 desc 'setup the directories'
 task :setup do
   puts "Creating directories"
-  [DATA_DIR, SCRIPTS_DIR, FETCHED_DIR, COLLATED_DIR].each{|p| p.mkpath}
+  [DATA_DIR, SCRIPTS_DIR, FETCHED_DIR].each{|p| p.mkpath}
 end
 
 
@@ -42,6 +42,7 @@ end
 # decade files
 
 namespace :package do
+  # e.g. decade-1970.csv
   PACKAGES[:decades].each do |decade|
     # e.g. 1970-01 to 1979-12
     yms = enum_yearmonths(DateTime.new(decade, 1), DateTime.new(decade+9, 12))
@@ -56,7 +57,7 @@ namespace :package do
     end
   end
 
-  # collated periods
+  # e.g. 2010-2014.csv
   PACKAGES[:periods].each do |period|
     px = period.first
     py = period.last
@@ -72,7 +73,7 @@ namespace :package do
     end
   end
 
-
+  # e.g. 2016.csv
   PACKAGES[:years].each do |year|
     yms = enum_yearmonths(DateTime.new(year, 1), DateTime.new(year, 12))
     srcnames = yms.map{|s| FETCHED_DIR.join(s + '.csv')}
@@ -87,14 +88,15 @@ namespace :package do
   end
 
   # time periods, contiguous united states
+  # e.g. contiguous-united-states-2000-through-2015.csv
   [[1970, 1999],[2000, 2015]].each do |period|
     px = period.first
     py = period.last
     pyms = (px..py).map{ |y| (1..12).map{|m| "#{y}-#{"%02d" % m}"}}.flatten()
     srcnames = pyms.map{ |ym| FETCHED_DIR.join "#{ym}.csv"}
-    us_contiguous_filename = DATA_DIR.join "usgs-earthquakes-contiguous-united-states-#{px}-through-#{py}.csv"
+    us_contiguous_fname = DATA_DIR.join "usgs-earthquakes-contiguous-united-states-#{px}-through-#{py}.csv"
     desc "Filter for earthquakes within contiguous United States"
-    file us_contiguous_filename => srcnames do
+    file us_contiguous_fname => srcnames do
       cmd1 = Shellwords.join(['python', SCRIPTS_DIR.join('compile_years.py'),
                                     px, py + 1, FETCHED_DIR])
       cmd2 = Shellwords.join(['python', SCRIPTS_DIR.join('filter_bounding_box.py'),
@@ -119,14 +121,6 @@ end
 
 
 namespace :fetch  do
-  # Fetched files
-  ALL_YEAR_MONTHS.each do |ym|
-    destname = FETCHED_DIR.join("#{ym}.csv").to_s
-    file destname do
-      Rake::Task['fetch:yearmonth'].execute(:yearmonth => ym)
-    end
-  end
-
   desc "helper task to fetch a single month's worth of data and save it"
   task :yearmonth, [:yearmonth] do |t, args|
     yrmth = args[:yearmonth]
@@ -136,6 +130,15 @@ namespace :fetch  do
             yrmth])
 
     Shell.new.system(cmd) > FETCHED_DIR.join(yrmth + '.csv').to_s
+  end
+
+
+  # All the files to fetch
+  ALL_YEAR_MONTHS.each do |ym|
+    destname = FETCHED_DIR.join("#{ym}.csv").to_s
+    file destname do
+      Rake::Task['fetch:yearmonth'].execute(:yearmonth => ym)
+    end
   end
 end
 
