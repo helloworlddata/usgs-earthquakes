@@ -105,8 +105,15 @@ namespace :package do
   end
 
 
-  desc "package the last month and year file"
-  task :recent
+  desc "re-fetch the two most recent months and repackage the most recent year"
+  task :recent do
+    today = DateTime.now()
+    enum_yearmonths(today - 31, today).each do |ym|
+      Rake::Task['fetch:yearmonth'].execute(:yearmonth => ym)
+    end
+    yrpath = String(DATA_DIR.join "usgs-earthquakes-#{today.year}.csv")
+    Rake::Task[yrpath].execute()
+  end
 end
 
 
@@ -122,8 +129,13 @@ namespace :fetch  do
 
   desc "helper task to fetch a single month's worth of data and save it"
   task :yearmonth, [:yearmonth] do |t, args|
-    scriptname = SCRIPTS_DIR.join('fetch_archives.py')
-    system "python #{scriptname} #{args[:yearmonth]}"
+    yrmth = args[:yearmonth]
+    cmd = Shellwords.join([
+            'python',
+            SCRIPTS_DIR.join('fetch_month_from_archive.py'),
+            yrmth])
+
+    Shell.new.system(cmd) > FETCHED_DIR.join(yrmth + '.csv').to_s
   end
 end
 
