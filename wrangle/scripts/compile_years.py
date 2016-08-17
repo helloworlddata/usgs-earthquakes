@@ -1,7 +1,11 @@
 from sys import argv, stdout
 from pathlib import Path
 import re
-"""ugh this is crap"""
+"""
+ugh this is crap
+The main point of this shit script is to concat a bunch of data files without
+worrying about repeating the headers
+"""
 
 
 def glob_years(datadir, start_year, end_year):
@@ -21,6 +25,7 @@ def glob_years(datadir, start_year, end_year):
     if not filenames:
         raise RuntimeWarning("No files that matched {0}/YYYY.csv between {1} and {2}".format(datadir, start_year, end_year))
     else:
+        # wtf?
         headers = None
         for fname in filenames:
             with fname.open('r') as f:
