@@ -1,6 +1,9 @@
 from sys import argv, stdout
 from pathlib import Path
 import re
+"""ugh this is crap"""
+
+
 def glob_years(datadir, start_year, end_year):
     """
     expects datadir to be a Path containing files in this format:
