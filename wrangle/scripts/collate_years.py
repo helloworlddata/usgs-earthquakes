@@ -35,7 +35,6 @@ if __name__ == '__main__':
         if datadir.is_dir():
             for line in glob_years(datadir, argv[1], argv[2]):
                 stdout.write(line)
-
         else:
             raise IOError("`%s` is not a directory." % datadir)
     else:

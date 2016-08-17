@@ -1,31 +1,32 @@
-from settings import FETCHED_DIR as SRC_DIR
 from csv import DictReader, DictWriter
-from sys import stdout, argv
+from sys import stdout, stdin
+import argparse
 
-US_LATITUDES = [24.6, 50]
-US_LONGITUDES = [-125, -65]
 
-def main(start_datestr="0000", end_datestr="9999"):
-    filenames = list(SRC_DIR.glob('*.csv'))
-    with filenames[0].open('r') as _f:
-        headers = _f.readline().strip().split(',')
 
-    outcsv = DictWriter(stdout, fieldnames=headers)
-    outcsv.writeheader()
-
-    for fname in filenames:
-        with fname.open('r') as rf:
-            for row in DictReader(rf):
-                lat = float(row['latitude'])
-                lng = float(row['longitude'])
-                date = row['time']
-
-                if lat >= US_LATITUDES[0] and lat <= US_LATITUDES[1]\
-                and lng >= US_LONGITUDES[0] and lng <= US_LONGITUDES[1]\
-                and date >= start_datestr and date < end_datestr:
-                    outcsv.writerow(row)
+def filter(row, x0, y0, x1, y1):
+    lat = float(row['latitude'])
+    lng = float(row['longitude'])
+    return lat >= y0 and lat <= y1 and lng >= x0 and lng <= x1
 
 if __name__ == '__main__':
-    x = argv[1] if len(argv) > 1 else '0000'
-    y = argv[2] if len(argv) > 2 else '9999'
-    main(x, y)
+    parser = argparse.ArgumentParser("Filter csv-latitude/longitude data by x0 y0 x1 y1 filename/stdin")
+    parser.add_argument('x0', type=float)
+    parser.add_argument('y0', type=float)
+    parser.add_argument('x1', type=float)
+    parser.add_argument('y1', type=float)
+    parser.add_argument('infile', type=argparse.FileType('r'))
+    args = parser.parse_args()
+
+    csvin = DictReader(args.infile)
+    headers = csvin.fieldnames
+    if not all(attr in headers for attr in ['latitude', 'longitude']):
+        raise IOError("Input data must be CSV formatted and have `latitude` and `longitude` headers")
+    else:
+        csvout = DictWriter(stdout, fieldnames=headers)
+        csvout.writeheader()
+        for row in csvin:
+            # ignore subsequent headers if files are being concatenated
+            if not row['latitude'] == 'latitude':
+                if filter(row, args.x0, args.y0, args.x1, args.y1):
+                    csvout.writerow(row)
