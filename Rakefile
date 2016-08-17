@@ -3,7 +3,7 @@ require 'pathname'
 require 'shellwords'
 require 'shell'
 
-DATA_DIR = Pathname 'data'
+PUBLISHED_DIR = Pathname 'data'
 WRANGLE_DIR = Pathname 'wrangle'
 SCRIPTS_DIR = WRANGLE_DIR.join('scripts')
 FETCHED_DIR = WRANGLE_DIR.join('corral', 'fetched')
@@ -34,20 +34,20 @@ task :default => [:setup]
 desc 'setup the directories'
 task :setup do
   puts "Creating directories"
-  [DATA_DIR, SCRIPTS_DIR, FETCHED_DIR].each{|p| p.mkpath}
+  [PUBLISHED_DIR, SCRIPTS_DIR, FETCHED_DIR].each{|p| p.mkpath}
 end
 
 
 # Packaged files
 # decade files
 
-namespace :package do
+namespace :publish do
   # e.g. decade-1970.csv
   PACKAGES[:decades].each do |decade|
     # e.g. 1970-01 to 1979-12
     yms = enum_yearmonths(DateTime.new(decade, 1), DateTime.new(decade+9, 12))
     srcnames = yms.map{|x| FETCHED_DIR.join "#{x}.csv"}
-    destname = DATA_DIR.join("usgs-earthquakes-decade-#{decade}.csv").to_s
+    destname = PUBLISHED_DIR.join("usgs-earthquakes-decade-#{decade}.csv").to_s
     desc "Package decade of #{decade}"
     file destname => srcnames do
       cmd1 = Shellwords.join(['python', SCRIPTS_DIR.join('compile_years.py'),
@@ -63,7 +63,7 @@ namespace :package do
     py = period.last
     pyms = (px..py).map{ |y| (1..12).map{|m| "#{y}-#{"%02d" % m}"}}.flatten()
     srcnames = pyms.map{ |ym| FETCHED_DIR.join "#{ym}.csv"}
-    collated_through_filename = DATA_DIR.join "usgs-earthquakes-#{px}-through-#{py}.csv"
+    collated_through_filename = PUBLISHED_DIR.join "usgs-earthquakes-#{px}-through-#{py}.csv"
     desc "Package earthquakes from #{px} through #{py}"
     file collated_through_filename => srcnames do
       cmd1 = Shellwords.join(['python', SCRIPTS_DIR.join('compile_years.py'),
@@ -77,7 +77,7 @@ namespace :package do
   PACKAGES[:years].each do |year|
     yms = enum_yearmonths(DateTime.new(year, 1), DateTime.new(year, 12))
     srcnames = yms.map{|s| FETCHED_DIR.join(s + '.csv')}
-    destname = DATA_DIR.join "usgs-earthquakes-#{year}.csv"
+    destname = PUBLISHED_DIR.join "usgs-earthquakes-#{year}.csv"
     desc "package single year #{year}"
     file destname => srcnames do
       cmd1 = Shellwords.join(['python', SCRIPTS_DIR.join('compile_years.py'),
@@ -94,7 +94,7 @@ namespace :package do
     py = period.last
     pyms = (px..py).map{ |y| (1..12).map{|m| "#{y}-#{"%02d" % m}"}}.flatten()
     srcnames = pyms.map{ |ym| FETCHED_DIR.join "#{ym}.csv"}
-    us_contiguous_fname = DATA_DIR.join "usgs-earthquakes-contiguous-united-states-#{px}-through-#{py}.csv"
+    us_contiguous_fname = PUBLISHED_DIR.join "usgs-earthquakes-contiguous-united-states-#{px}-through-#{py}.csv"
     desc "Filter for earthquakes within contiguous United States"
     file us_contiguous_fname => srcnames do
       cmd1 = Shellwords.join(['python', SCRIPTS_DIR.join('compile_years.py'),
@@ -113,7 +113,7 @@ namespace :package do
     enum_yearmonths(today - 31, today).each do |ym|
       Rake::Task['fetch:yearmonth'].execute(:yearmonth => ym)
     end
-    yrpath = String(DATA_DIR.join "usgs-earthquakes-#{today.year}.csv")
+    yrpath = String(PUBLISHED_DIR.join "usgs-earthquakes-#{today.year}.csv")
     Rake::Task[yrpath].execute()
   end
 end
@@ -123,13 +123,12 @@ end
 namespace :fetch  do
   desc "helper task to fetch a single month's worth of data and save it"
   task :yearmonth, [:yearmonth] do |t, args|
-    yrmth = args[:yearmonth]
-    cmd = Shellwords.join([
-            'python',
-            SCRIPTS_DIR.join('fetch_month_from_archive.py'),
-            yrmth])
+    ym = args[:yearmonth]
+    cmd = Shellwords.join(['python',
+                           SCRIPTS_DIR.join('fetch_month_from_archive.py'),
+                           ym])
 
-    Shell.new.system(cmd) > FETCHED_DIR.join(yrmth + '.csv').to_s
+    Shell.new.system(cmd) > FETCHED_DIR.join(ym + '.csv').to_s
   end
 
 

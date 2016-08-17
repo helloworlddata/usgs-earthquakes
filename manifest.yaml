@@ -1,15 +1,17 @@
 datasets:
-  - title: Earthquakes within contiguous United States, from 1970 through 1999
-    path: data/usgs-earthquakes-contiguous-united-states-1970-through-1999.csv
-    description: |
-      Earthquake events for the lower 48 United States, from 1970 through 1999.
-    schema: schemas/usgs-earthquakes.yaml
 
   - title: Earthquakes within contiguous United States, from 2000 through 2015
     path: data/usgs-earthquakes-contiguous-united-states-2000-through-2015.csv
     description: |
       Earthquake events for the lower 48 United States, from 2000 through 2015.
     schema: schemas/usgs-earthquakes.yaml
+
+  - title: Earthquakes within contiguous United States, from 1970 through 1999
+    path: data/usgs-earthquakes-contiguous-united-states-1970-through-1999.csv
+    description: |
+      Earthquake events for the lower 48 United States, from 1970 through 1999.
+    schema: schemas/usgs-earthquakes.yaml
+
 
   - title: USGS Earthquakes in 2016 (through 2016-08-14)
     path: data/usgs-earthquakes-2016.csv
@@ -55,6 +57,11 @@ datasets:
       All earthquake events worldwide as recorded by USGS for the decade 1970.
     schema: schemas/usgs-earthquakes.yaml
 
+  - title: USGS Earthquakes, 1960 (decade)
+    path: data/usgs-earthquakes-decade-1970.csv
+    description: |
+      All earthquake events worldwide as recorded by USGS for the decade 1970.
+    schema: schemas/usgs-earthquakes.yaml
 
 
 
