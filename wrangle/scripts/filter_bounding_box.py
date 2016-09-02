@@ -1,8 +1,6 @@
 from csv import DictReader, DictWriter
-from sys import stdout, stdin
+from sys import stdout
 import argparse
-
-
 
 def filter(row, x0, y0, x1, y1):
     lat = float(row['latitude'])
