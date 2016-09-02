@@ -9,7 +9,7 @@ For example:
 Can be (more easily) downloaded at:
 
 
-https://dataofnote.github.io/usgs-earthquakes/data/usgs-earthquakes-contiguous-united-states-2000-through-2015.csv
+https://helloworlddata.github.io/usgs-earthquakes/data/usgs-earthquakes-contiguous-united-states-2000-through-2015.csv
 
 
 
