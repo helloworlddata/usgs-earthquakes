@@ -12,6 +12,7 @@ START_DATE = DateTime.new(1960, 1)
 END_DATE = DateTime.now()
 ALL_YEAR_MONTHS = START_DATE.upto(END_DATE).map{|d| d.strftime('%Y-%m')}.uniq()
 USCOORDS = {lng0: -125, lng1: -65, lat0: 24.6, lat1: 50}
+OKCOORDS = {lng0: -106.743, lng1: -90.659, lat0: 31.075, lat1: 41}
 
 PACKAGES = {
   :decades => (1960..2000).step(10),
@@ -105,6 +106,11 @@ namespace :publish do
       shell.system(cmd1) | shell.system(cmd2) > us_contiguous_filename.to_s
     end
   end
+
+
+  # Oklahoma region earthquakes
+  task :oklahoma => []
+
 
 
 
