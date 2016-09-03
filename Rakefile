@@ -3,7 +3,7 @@ require 'pathname'
 require 'shellwords'
 require 'shell'
 
-PUBLISHED_DIR = Pathname 'data'
+PUBLISHED_DIR = Pathname 'catalog'
 WRANGLE_DIR = Pathname 'wrangle'
 SCRIPTS_DIR = WRANGLE_DIR.join('scripts')
 FETCHED_DIR = WRANGLE_DIR.join('corral', 'fetched')
@@ -101,7 +101,8 @@ namespace :publish do
       cmd1 = Shellwords.join(['python', SCRIPTS_DIR.join('compile_years.py'),
                                     px, py + 1, FETCHED_DIR])
       cmd2 = Shellwords.join(['python', SCRIPTS_DIR.join('filter_bounding_box.py'),
-                                   USCOORDS[:lng0], USCOORDS[:lat0], USCOORDS[:lng1], USCOORDS[:lat1], '-'])
+                                   USCOORDS[:lng0], USCOORDS[:lat0], USCOORDS[:lng1],
+                                   USCOORDS[:lat1], '-'])
       shell = Shell.new
       shell.system(cmd1) | shell.system(cmd2) > us_contiguous_filename.to_s
     end
@@ -109,7 +110,18 @@ namespace :publish do
 
 
   # Oklahoma region earthquakes
-  task :oklahoma => []
+  desc "Collect all earthquakes around Oklahoma"
+  # assuming :fetched dir is full...
+  ok_filename = PUBLISHED_DIR.join "usgs-earthquakes-oklahoma-region.csv"
+
+  file ok_filename do
+    cmd = ["cat", FETCHED_DIR / '*.csv', '|',
+            'python', SCRIPTS_DIR.join('filter_bounding_box.py'),
+            OKCOORDS[:lng0], OKCOORDS[:lat0], OKCOORDS[:lng1], OKCOORDS[:lat1], '-',
+            '>', ok_filename
+          ]
+    sh cmd.join(' ')
+  end
 
 
 
