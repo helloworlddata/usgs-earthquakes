@@ -71,3 +71,4 @@ There is also a soft limit for total size of a repo. For that reason, the `wrang
 
 
 This repo is not meant to be a direct mirror of the USGS archive, but to contain easy-to-access packages of data for educational/experimental purposes.
+http://www.nytimes.com/2016/09/04/us/earthquake-ties-record-for-strongest-in-oklahoma-history.html
