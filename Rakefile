@@ -20,6 +20,11 @@ PACKAGES = {
   :years => 2015...END_DATE.year      # each of these years are too big for a single file
 }
 
+# will convert this rakefile into standard conventions later
+P_FILES  = {
+  'ytd' => PUBLISHED_DIR / "usgs-earthquakes-#{END_DATE.year}.csv"
+}
+
 
 def enum_yearmonths(dx, dy)
   """Returns a list of strings between dx and dy (which are DateTimes),
@@ -30,12 +35,21 @@ end
 
 
 
-task :default => [:setup]
+task :default => [:refresh]
 
 desc 'setup the directories'
 task :setup do
   puts "Creating directories"
   [PUBLISHED_DIR, SCRIPTS_DIR, FETCHED_DIR].each{|p| p.mkpath}
+end
+
+
+desc "re-fetch the two most recent months and repackage the most recent year"
+task :refresh do
+  Rake::Task[P_FILES['ytd']].invoke
+  enum_yearmonths(END_DATE - 31, END_DATE).each do |ym|
+    Rake::Task['fetch:yearmonth'].execute(:yearmonth => ym)
+  end
 end
 
 
@@ -88,6 +102,21 @@ namespace :publish do
     end
   end
 
+
+
+  ### Special case for the current year
+  desc "Year to date: #{END_DATE.year}"
+  yms = enum_yearmonths(DateTime.new(END_DATE.year, 1), END_DATE)
+  srcnames = yms.map{|s| FETCHED_DIR.join(s + '.csv')}
+  file P_FILES['ytd'] => srcnames do
+    cmd1 = Shellwords.join(['python', SCRIPTS_DIR.join('compile_years.py'),
+                                      END_DATE.year, END_DATE.year+1, FETCHED_DIR])
+    # the most recent year isn't complete, so we don't depend
+    # on the entire year's worth of month files being fetched
+    Shell.new.system(cmd1) > String(P_FILES['ytd'])
+  end
+
+
   # time periods, contiguous united states
   # e.g. contiguous-united-states-2000-through-2015.csv
   [[1970, 1999],[2000, 2015]].each do |period|
@@ -123,32 +152,6 @@ namespace :publish do
     sh cmd.join(' ')
   end
 
-
-
-
-  ### Special case for the current year
-  tyear = END_DATE.year
-  this_year_fname = String(PUBLISHED_DIR.join "usgs-earthquakes-#{tyear}.csv")
-  yms = enum_yearmonths(DateTime.new(tyear, 1), END_DATE)
-  srcnames = yms.map{|s| FETCHED_DIR.join(s + '.csv')}
-
-  desc "This year's file, as of #{END_DATE.year}"
-  file this_year_fname => srcnames do
-    cmd1 = Shellwords.join(['python', SCRIPTS_DIR.join('compile_years.py'),
-                                    tyear, tyear+1, FETCHED_DIR])
-    # the most recent year isn't complete, so we don't depend
-    # on the entire year's worth of month files being fetched
-    Shell.new.system(cmd1) > String(this_year_fname)
-  end
-
-  ### Special case for refreshing the most recent months
-  desc "re-fetch the two most recent months and repackage the most recent year"
-  task :recent do
-    Rake::Task[this_year_fname].invoke
-    enum_yearmonths(END_DATE - 31, END_DATE).each do |ym|
-      Rake::Task['fetch:yearmonth'].execute(:yearmonth => ym)
-    end
-  end
 end
 
 

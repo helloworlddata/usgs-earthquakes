@@ -5,9 +5,9 @@ traits:
   geospatial:
     fields:
       - name: longitude
-        type: x
+        type: longitude
       - name: latitude
-        type: y
+        type: latitude
 
   chronological:
     fields:
@@ -16,12 +16,12 @@ traits:
 
 
 indexes:
-  - name: id
+  - fields: [id]
     primary: true
-  - name: time
-  - name: longitude
-  - name: latitude
-  - name: mag
+  - fields: [time]
+  - fields: [longitude]
+  - fields: [latitude]
+  - fields: [mag]
 
 fields:
   - name: time
