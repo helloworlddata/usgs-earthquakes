@@ -92,7 +92,7 @@ namespace :publish do
   PACKAGES[:years].each do |year|
     yms = enum_yearmonths(DateTime.new(year, 1), DateTime.new(year, 12))
     srcnames = yms.map{|s| FETCHED_DIR.join(s + '.csv')}
-    destname = PUBLISHED_DIR.join "usgs-earthquakes-#{year}.csv"
+    destname = PUBLISHED_DIR.join "usgs-earthquakes-worldwide-#{year}.csv"
     desc "package single year #{year}"
     file destname => srcnames do
       cmd1 = Shellwords.join(['python', SCRIPTS_DIR.join('compile_years.py'),
