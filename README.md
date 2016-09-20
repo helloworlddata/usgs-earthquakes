@@ -23,6 +23,21 @@ Here is the USGS data broken down into several, easy to download packages:
 
 # The stories
 
+In the past few years, the most prominent use of the USGS data has been to examine the sudden surge of significant earthquakes in Oklahoma, purportedly due to fracking:
+
+[NPR's StateImpact project has been covering the issue for the past few years](https://stateimpact.npr.org/oklahoma/tag/earthquakes/).
+
+
+[Drilling data is spotty](http://www.occeweb.com/og/ogdatafiles2.htm), which makes it difficult to understand how activity has changed Oklahoma's underground structure. From the New Yorker longform story, [Weather Underground (April 2015)](http://www.newyorker.com/magazine/2015/04/13/weather-underground):
+
+> “We know more about the East African Rift than we know about the faults in the basement in Oklahoma.” In seismically quiet places, such as the Midwest, which are distant from the well-known fault lines between tectonic plates, most faults are, instead, cracks within a plate, which are only discovered after an earthquake is triggered. The O.G.S.’s Austin Holland has long had plans to put together two updated fault maps, one using the available published literature on Oklahoma’s faults and another relying on data that, it was hoped, the industry would volunteer; but, to date, no updated maps have been released to the public.
+
+Recently, researchers and scientists have attempted to show a correlation between drilling activity and Oklahoma's earthquakes. Here's a paper funded by the [Stanford Center for Induced and Triggered Seismicity](https://scits.stanford.edu/about):
+
+__Oklahoma’s recent earthquakes and saltwater disposal__ by F. Rall Walsh III and Mark D. Zoback, June 18, 2015, _Science Advances_: [abstract](http://advances.sciencemag.org/content/1/5/e1500195) [pdf](http://advances.sciencemag.org/content/1/5/e1500195.full-text.pdf+html) [Stanford news article](http://news.stanford.edu/news/2015/june/okla-quake-drilling-061815.html)
+
+
+<a href="http://advances.sciencemag.org/content/1/5/e1500195.full.pdf+html"><img alt="Fig. 1 Earthquakes and injection wells in Oklahoma." src="http://d3a5ak6v9sb99l.cloudfront.net/content/advances/1/5/e1500195/F1.large.jpg"></a>
 
 
 
@@ -30,15 +45,15 @@ Here is the USGS data broken down into several, easy to download packages:
 
 
 
-
-
-## Sources
+## Data Sources
 
 - Archive search form: http://earthquake.usgs.gov/earthquakes/search/
 - USGS CSV specification: http://earthquake.usgs.gov/earthquakes/feed/v1.0/csv.php
 
 
-# Development (i.e. about this process)
+
+
+# Development notes (i.e. about this data extraction/packaging process)
 
 This is just me hacking around until I find proper conventions for making a hand-operated extract-transform-load system for data that is entirely based around hosting flat-files on Github (and the limitations thereof).
 
