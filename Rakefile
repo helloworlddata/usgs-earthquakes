@@ -22,7 +22,7 @@ PACKAGES = {
 
 # will convert this rakefile into standard conventions later
 P_FILES  = {
-  'ytd' => PUBLISHED_DIR / "usgs-earthquakes-#{END_DATE.year}.csv"
+  'ytd' => PUBLISHED_DIR / "usgs-earthquakes-worldwide-#{END_DATE.year}.csv"
 }
 
 
@@ -78,7 +78,7 @@ namespace :publish do
     py = period.last
     pyms = (px..py).map{ |y| (1..12).map{|m| "#{y}-#{"%02d" % m}"}}.flatten()
     srcnames = pyms.map{ |ym| FETCHED_DIR.join "#{ym}.csv"}
-    collated_through_filename = PUBLISHED_DIR.join "usgs-earthquakes-#{px}-through-#{py}.csv"
+    collated_through_filename = PUBLISHED_DIR.join "usgs-earthquakes-worldwide-#{px}-through-#{py}.csv"
     desc "Package earthquakes from #{px} through #{py}"
     file collated_through_filename => srcnames do
       cmd1 = Shellwords.join(['python', SCRIPTS_DIR.join('compile_years.py'),

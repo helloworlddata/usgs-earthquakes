@@ -1,15 +1,34 @@
-# USGS Earthquakes
+# U.S. Geological Survey Earthquake Events Archive
 
-Data fetched from the USGS Earthquake Archives and packaged in relatively-easy-to-access flat files. This repo is pushed to Github pages, but there's currently no web-friendly index to list the contents of [data/](data/).
+The U.S. Geological [Earthquake Hazards program](http://earthquake.usgs.gov/) has a searchable catalog of earthquake data -- including geospatial coordinates, date/time to the milliseconds, and magnitude. This repository packages the data in easy-to-download CSV format for analysis, including packages small enough to fit into memory/spreadsheets.
 
-For example:
-
-[data/usgs-earthquakes-contiguous-united-states-2000-through-2015.csv](data/usgs-earthquakes-contiguous-united-states-2000-through-2015.csv)
-
-Can be (more easily) downloaded at:
+Here's an example of a multi-layered data visualization (URL TK) created using ggplot, showing the massive increase of M3.0+ earthquakes in Oklahoma in the last decade:
 
 
-https://helloworlddata.github.io/usgs-earthquakes/data/usgs-earthquakes-contiguous-united-states-2000-through-2015.csv
+![Earthquakes of at least magnitude 3.0 in the lower contiguous United States](vignettes/images/optimized-movie-quakes-OK.gif)
+
+
+
+# The data packages
+
+Here is the USGS data broken down into several, easy to download packages:
+
+- [Worldwide, 2016 (year to date)](https://helloworlddata.github.io/usgs-earthquakes/data/usgs-earthquakes-worldwide-2016.csv)
+- [Worldwide, 2015](https://helloworlddata.github.io/usgs-earthquakes/data/usgs-earthquakes-worldwide-2015.csv)
+- [Worldwide, 2010 through 2014](https://helloworlddata.github.io/usgs-earthquakes/data/usgs-earthquakes-worldwide-2010-through-2015.csv)
+- [Worldwide, 1960 through 1999 (TK)](https://helloworlddata.github.io/usgs-earthquakes/data/usgs-earthquakes-worldwide-worldwide-decade-2000.csv)
+- [The contiguous United States, from 2000 through 2015](https://helloworlddata.github.io/usgs-earthquakes/data/usgs-earthquakes-contiguous-united-states-2000-through-2015.csv)
+- [The Oklahoma region, all years](https://helloworlddata.github.io/usgs-earthquakes/data/usgs-earthquakes-oklahoma-region.csv)
+
+
+# The stories
+
+
+
+
+
+
+
 
 
 
@@ -18,7 +37,6 @@ https://helloworlddata.github.io/usgs-earthquakes/data/usgs-earthquakes-contiguo
 - Archive search form: http://earthquake.usgs.gov/earthquakes/search/
 - USGS CSV specification: http://earthquake.usgs.gov/earthquakes/feed/v1.0/csv.php
 
-This repo is not meant to be a direct mirror of the USGS archive, but to contain and occasionally maintain easy-to-access packages of data for educational/experimental purposes.
 
 # Development (i.e. about this process)
 
