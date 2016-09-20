@@ -36,8 +36,7 @@ Here's a vignette (URL TK) using ggplot and ggmaps showing the earthquakes by ye
 On September 3, 2016, [the USGS recorded a M5.6 earthquake near Pawnee](http://earthquake.usgs.gov/earthquakes/eventpage/us10006jxs#executive), Oklahoma, the state's biggest earthquake in recorded history.
 
 
-![poster](http://earthquake.usgs.gov/earthquakes/eqarchives/poster/2016/20160903.jpg)
-
+<a href="http://earthquake.usgs.gov/earthquakes/eqarchives/poster/2016/20160903.php"><img src="http://earthquake.usgs.gov/earthquakes/eqarchives/poster/2016/20160903.medium.jpg" alt=""></a>
 
 [NPR's StateImpact project has been covering the Oklahoma earthquakes and fracking for the past few years](https://stateimpact.npr.org/oklahoma/tag/earthquakes/).
 
