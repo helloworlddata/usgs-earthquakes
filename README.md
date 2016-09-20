@@ -21,11 +21,25 @@ Here is the USGS data broken down into several, easy to download packages:
 - [The Oklahoma region, all years](https://helloworlddata.github.io/usgs-earthquakes/data/usgs-earthquakes-oklahoma-region.csv)
 
 
+
+
 # The stories
 
-In the past few years, the most prominent use of the USGS data has been to examine the sudden surge of significant earthquakes in Oklahoma, purportedly due to fracking:
+In the past few years, the most prominent use of the USGS data has been to examine the sudden surge of significant earthquakes in Oklahoma, purportedly due to fracking.
 
-[NPR's StateImpact project has been covering the issue for the past few years](https://stateimpact.npr.org/oklahoma/tag/earthquakes/).
+Here's a vignette (URL TK) using ggplot and ggmaps showing the earthquakes by year within Oklahoma:
+
+![ok](/vignettes/images/multi-year-OK-google-map-borderless.jpg)
+
+
+
+On September 3, 2016, [the USGS recorded a M5.6 earthquake near Pawnee](http://earthquake.usgs.gov/earthquakes/eventpage/us10006jxs#executive), Oklahoma, the state's biggest earthquake in recorded history.
+
+
+![poster](http://earthquake.usgs.gov/earthquakes/eqarchives/poster/2016/20160903.jpg)
+
+
+[NPR's StateImpact project has been covering the Oklahoma earthquakes and fracking for the past few years](https://stateimpact.npr.org/oklahoma/tag/earthquakes/).
 
 
 [Drilling data is spotty](http://www.occeweb.com/og/ogdatafiles2.htm), which makes it difficult to understand how activity has changed Oklahoma's underground structure. From the New Yorker longform story, [Weather Underground (April 2015)](http://www.newyorker.com/magazine/2015/04/13/weather-underground):
