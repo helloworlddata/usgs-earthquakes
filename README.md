@@ -5,6 +5,12 @@ The U.S. Geological [Earthquake Hazards program](http://earthquake.usgs.gov/) ha
 Here's an example of a multi-layered data visualization (URL TK) created using ggplot, showing the massive increase of M3.0+ earthquakes in Oklahoma in the last decade:
 
 
+
+![img](vignettes/images/us-ok-earthquakes-by-month-combined.png)
+
+
+As an animated GIF:
+
 ![Earthquakes of at least magnitude 3.0 in the lower contiguous United States](vignettes/images/optimized-movie-quakes-OK.gif)
 
 
